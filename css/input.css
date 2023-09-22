@@ -1,3 +1,5 @@
+/* abaikan warning Unknown at rule @tailwindcss(unknownAtRules) */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
