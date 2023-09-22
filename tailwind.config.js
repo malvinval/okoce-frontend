@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "jost": ['Jost', 'sans-serif'],
+        "poppins": ['Poppins', 'sans-serif'],
       },
       fontWeight: {
         "bold-400": "400",
@@ -19,7 +20,10 @@ module.exports = {
       colors: {
         "okoce-light-blue": "#3EB7DD",
         "okoce-blue": "#007CBD",
-      }
+      },
+      backgroundImage: {
+        "hero-image": "url('./img/hero-image.png')"
+      },
     },
   },
   plugins: [],
