@@ -22,7 +22,7 @@ module.exports = {
         "okoce-blue": "#007CBD",
       },
       backgroundImage: {
-        "hero-image": "url('./img/hero.png')"
+        "hero-image": "url('./img/hero-img.png')"
       },
     },
   },
