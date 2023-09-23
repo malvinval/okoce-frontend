@@ -100,3 +100,49 @@
 }
 
 /* End Height Responsivity */
+
+/* START MITRA KERJASAMA ANIMATION */
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.move-left-right {
+    animation: moveLeftRight 20s linear infinite;
+}
+
+@media screen and (max-width: 768px) {
+    @keyframes moveLeftRight {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-1000%);
+        }
+    }
+
+    .move-left-right {
+        animation: moveLeftRight 20s linear infinite;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1500px) {
+    @keyframes moveLeftRight {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-450%);
+        }
+    }
+
+    .move-left-right {
+        animation: moveLeftRight 20s linear infinite;
+    }
+}
+
+/* END MITRA KERJASAMA ANIMATION */
