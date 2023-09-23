@@ -734,6 +734,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -889,16 +894,24 @@ video {
   height: 100vh;
 }
 
+.h-3\/5 {
+  height: 60%;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
-.w-3\/4 {
-  width: 75%;
+.w-2\/5 {
+  width: 40%;
 }
 
-.w-3\/5 {
-  width: 60%;
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-5 {
@@ -913,8 +926,8 @@ video {
   width: 100%;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-4\/5 {
+  width: 80%;
 }
 
 .max-w-screen-xl {
