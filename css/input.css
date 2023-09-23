@@ -81,3 +81,11 @@
     -webkit-animation-delay: 0s;
     /* Safari 和 Chrome */
 }
+
+/* Start Height Responsivity */
+@media screen and (max-height: 700px) {
+    #hero #hero-headline {
+      font-size: 48px; /* Ukuran font untuk layar dengan tinggi kurang dari 700px */
+    }
+}
+/* End Height Responsivity */
