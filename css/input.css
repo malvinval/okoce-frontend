@@ -92,4 +92,11 @@
         font-size: 36px;
     }
 }
+
+@media screen and (max-height: 768px) and (min-width: 768px) {
+    #hero #hero-headline {
+      font-size: 56px; /* Ukuran font untuk layar dengan tinggi kurang dari 700px */
+    }
+}
+
 /* End Height Responsivity */
