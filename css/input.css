@@ -85,7 +85,7 @@
 /* Start Height Responsivity */
 @media screen and (max-height: 768px) {
     #hero #hero-headline {
-      font-size: 48px; /* Ukuran font untuk layar dengan tinggi kurang dari 700px */
+      font-size: 36px; /* Ukuran font untuk layar dengan tinggi kurang dari 700px */
     }
 
     #about #about-headline {
