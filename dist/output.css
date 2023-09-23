@@ -714,11 +714,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -916,6 +911,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-2\/5 {
+  width: 40%;
 }
 
 .max-w-screen-xl {
@@ -2287,11 +2286,6 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-neutral-800 {
-  --tw-text-opacity: 1;
-  color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
 .text-slate-500 {
