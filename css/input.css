@@ -112,7 +112,7 @@
 }
 
 .move-left-right {
-    animation: moveLeftRight 20s linear infinite;
+    animation: moveLeftRight 35s linear infinite;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,7 +126,7 @@
     }
 
     .move-left-right {
-        animation: moveLeftRight 20s linear infinite;
+        animation: moveLeftRight 30s linear infinite;
     }
 }
 
@@ -141,7 +141,7 @@
     }
 
     .move-left-right {
-        animation: moveLeftRight 20s linear infinite;
+        animation: moveLeftRight 30s linear infinite;
     }
 }
 
