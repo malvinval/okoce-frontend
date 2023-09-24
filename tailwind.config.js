@@ -22,8 +22,12 @@ module.exports = {
         "okoce-blue": "#007CBD",
       },
       backgroundImage: {
-        "hero-image": "url('./img/hero-img.png')"
+        "hero-image": "url('./img/hero-img.png')",
+        "bg1" : "url('./img/bg1.png')"
       },
+      backgroundSize : {
+        "bg1":"cover"
+      }
     },
   },
   plugins: [],
