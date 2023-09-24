@@ -950,6 +950,14 @@ video {
   width: 100%;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
