@@ -942,6 +942,10 @@ video {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -2943,6 +2947,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2976,6 +2984,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:flex-row {
