@@ -894,6 +894,10 @@ video {
   height: 1.5rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .h-7 {
   height: 1.75rem;
 }
@@ -910,25 +914,16 @@ video {
   height: 100vh;
 }
 
-.h-96 {
-  height: 24rem;
+.h-\[28vh\] {
+  height: 28vh;
 }
 
-.h-64 {
-  height: 16rem;
+.h-\[24vh\] {
+  height: 24vh;
 }
 
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-\[75vh\] {
-  height: 75vh;
+.h-\[20vh\] {
+  height: 20vh;
 }
 
 .w-1\/6 {
@@ -959,6 +954,10 @@ video {
   width: 80%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -975,8 +974,32 @@ video {
   width: 100%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-\[5vh\] {
+  width: 5vh;
+}
+
+.w-\[10vh\] {
+  width: 10vh;
+}
+
+.w-\[20vh\] {
+  width: 20vh;
+}
+
+.w-\[35vh\] {
+  width: 35vh;
+}
+
+.w-\[30vh\] {
+  width: 30vh;
+}
+
+.w-\[34vh\] {
+  width: 34vh;
 }
 
 .max-w-screen-xl {
@@ -3081,6 +3104,10 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
   .lg\:h-10 {
     height: 2.5rem;
   }
@@ -3093,89 +3120,16 @@ video {
     height: 2rem;
   }
 
-  .lg\:h-96 {
-    height: 24rem;
-  }
-
-  .lg\:h-3\/5 {
-    height: 60%;
-  }
-
-  .lg\:h-4\/5 {
-    height: 80%;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:h-screen {
-    height: 100vh;
-  }
-
-  .lg\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .lg\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
-  .lg\:h-\[70\%\] {
-    height: 70%;
-  }
-
-  .lg\:h-\[100\%\] {
-    height: 100%;
-  }
-
-  .lg\:h-\[100\] {
-    height: 100;
-  }
-
-  .lg\:h-\[200\] {
-    height: 200;
-  }
-
-  .lg\:h-\[600\] {
-    height: 600;
-  }
-
-  .lg\:h-\[500\] {
-    height: 500;
-  }
-
-  .lg\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .lg\:h-4 {
-    height: 1rem;
-  }
-
-  .lg\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .lg\:h-\[100vh\] {
-    height: 100vh;
-  }
-
-  .lg\:h-\[80vh\] {
-    height: 80vh;
-  }
-
   .lg\:h-\[75vh\] {
     height: 75vh;
   }
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-\[34vh\] {
+    width: 34vh;
   }
 
   .lg\:grid-cols-2 {
