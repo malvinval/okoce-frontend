@@ -783,6 +783,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -910,6 +914,28 @@ video {
   height: 100vh;
 }
 
+.h-2\/5 {
+  height: 40%;
+}
+
+.h-3\/5 {
+  height: 60%;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.max-h-fit {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
 .w-1\/6 {
   width: 16.666667%;
 }
@@ -942,8 +968,29 @@ video {
   width: 100%;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .max-w-screen-xl {
@@ -1946,6 +1993,10 @@ video {
   background-image: url('./img/hero-img.png');
 }
 
+.bg-bg1 {
+  background-image: url('./img/bg1.png');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1967,6 +2018,10 @@ video {
 }
 
 .bg-cover {
+  background-size: cover;
+}
+
+.bg-bg1 {
   background-size: cover;
 }
 
@@ -2107,6 +2162,30 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -2139,12 +2218,16 @@ video {
   padding-top: 2.25rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -2986,10 +3069,6 @@ video {
     width: auto;
   }
 
-  .md\:w-3\/4 {
-    width: 75%;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -3003,12 +3082,12 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .md\:pt-0 {
-    padding-top: 0px;
-  }
-
   .md\:pb-5 {
     padding-bottom: 1.25rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:text-justify {
@@ -3029,6 +3108,10 @@ video {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:h-10 {
