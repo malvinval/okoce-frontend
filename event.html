@@ -151,7 +151,7 @@
     <h1 class="font-jost text-2xl lg:text-4xl font-bold-700 text-center mt-36">Event <span class="text-okoce-blue">OK OCE Indonesia</span></h1>
     <div class="mt-5">
         <div class="w-8/12 flex flex-col md:flex-row py-8 mx-auto">
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <div class="flex justify-between my-2 mt-10 w-1/2 mx-auto">
                     <button id="prevMonth" class="text-gray-500 hover:text-gray-700"><i class="fa-solid fa-arrow-left"></i></i></button>
                     <h2 id="currentMonthYear" class="text-sm lg:text-xl font-semibold text-center"></h2>
@@ -193,19 +193,19 @@
     <!-- EVENT LIST SECTION -->
     <div class="">
         <div class="w-10/12 flex flex-col md:flex-row pt-8 mx-auto">
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                 <h4 class="p-6 font-semibold">Mengembangkan Potensi Produk Lokal Tas Tenun Ikat bersama ADIA</h4>
                 <p class="px-6 pb-6"><b>Ponorogo | </b> Selasa, 10 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                 <h4 class="p-6 font-semibold">Mengelola Kecemasan Dengan Teknik Mindfullnes Spiritual</h4>
                 <p class="px-6 pb-6"><b>Online |</b> Jum'at, 13 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                 <h4 class="p-6 font-semibold">OK OCE GAN 1st Anniversary Talk Show dan Susur Sungai</h4>
                 <p class="px-6 pb-6"><b>Jakarta |</b> Minggu, 15 Oktober 2023</p>
@@ -213,19 +213,19 @@
             </div>
         </div>
         <div class="w-10/12 flex flex-col md:flex-row pt-8 mx-auto">
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                 <h4 class="p-6 font-semibold">Bazar Sembako Murah Kota Semarang</h4>
                 <p class="px-6 pb-6"><b>Semarang | </b> Selasa, 17 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                 <h4 class="p-6 font-semibold">DNA Test : Get To Know Your Powerful Business Plan</h4>
                 <p class="px-6 pb-6"><b>Online |</b> Jum'at, 20 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-2/3 mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                 <h4 class="p-6 font-semibold">Peluang Usaha Ekspedisi Bersama OK OCE Xpress</h4>
                 <p class="px-6 pb-6"><b>Jakarta |</b> Minggu, 22 Oktober 2023</p>
@@ -314,7 +314,7 @@
         const daysInMonth = lastDayOfMonth.getDate();
         const startingDay = firstDayOfMonth.getDay();
 
-        currentMonthYear.textContent = `${new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' }).format(currentDate)}`;
+        currentMonthYear.textContent = `${new Intl.DateTimeFormat('ID', { month: 'long', year: 'numeric' }).format(currentDate)}`;
 
         let dayCount = 1;
 
