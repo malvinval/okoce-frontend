@@ -154,19 +154,19 @@
             <div class="container rounded-lg shadow-xl lg:mx-2 h-fit font-jost">
                 <div class="flex justify-between my-2 mt-10 w-1/2 mx-auto">
                     <button id="prevMonth" class="text-gray-500 hover:text-gray-700"><i class="fa-solid fa-arrow-left"></i></i></button>
-                    <h2 id="currentMonthYear" class="text-sm lg:text-xl font-semibold"></h2>
+                    <h2 id="currentMonthYear" class="text-sm lg:text-xl font-semibold text-center"></h2>
                     <button id="nextMonth" class="text-gray-500 hover:text-gray-700"><i class="fa-solid fa-arrow-right"></i></button>
                 </div>
                 <table class="w-11/12 mx-auto">
                     <thead>
                         <tr class="text-xs lg:text-lg">
-                            <th class="py-5">Minggu</th>
-                            <th class="py-5">Senin</th>
-                            <th class="py-5">Selasa</th>
-                            <th class="py-5">Rabu</th>
-                            <th class="py-5">Kamis</th>
-                            <th class="py-5">Jum'at</th>
-                            <th class="py-5">Sabtu</th>
+                            <th class="py-5">M</th>
+                            <th class="py-5">S</th>
+                            <th class="py-5">S</th>
+                            <th class="py-5">R</th>
+                            <th class="py-5">K</th>
+                            <th class="py-5">J</th>
+                            <th class="py-5">S</th>
                         </tr>
                     </thead>
                     <tbody id="calendarBody" class=""></tbody>
@@ -234,6 +234,40 @@
         </div>     
     </div>
     <!-- END EVENT LIST SECTION -->
+
+    <!-- PAGINATION SECTION -->
+    <div class="my-20">
+        <nav aria-label="Page navigation" class="">
+            <ul class="flex items-center justify-center">
+            <li>
+                <a href="#" class="flex items-center justify-center px-4 h-10 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700">
+                <span class="sr-only">Previous</span>
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" aria-current="page" class="z-10 flex items-center justify-center px-4 h-10 leading-tight text-blue-600 border border-blue-300 bg-blue-100 hover:bg-blue-100 hover:text-blue-700">1</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">2</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">3</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700">
+                <span class="sr-only">Next</span>
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                </a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- END PAGINATION -->
 
     <!-- START FOOTER SECTION -->
     <footer class="flex flex-col items-center text-center font-jost shadow-inner mt-8">
