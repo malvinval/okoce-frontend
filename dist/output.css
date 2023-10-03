@@ -3223,6 +3223,11 @@ video {
     width: 75%;
   }
 
+  .sm\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -3260,6 +3265,11 @@ video {
 
   .md\:w-7\/12 {
     width: 58.333333%;
+  }
+
+  .md\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .md\:flex-row {
