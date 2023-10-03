@@ -10727,6 +10727,10 @@ details.collapse summary::-webkit-details-marker {
     padding-top: 0px;
   }
 
+  .md\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
   .md\:text-justify {
     text-align: justify;
   }
