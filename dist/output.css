@@ -9664,6 +9664,14 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 2.25rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -10608,6 +10616,11 @@ details.collapse summary::-webkit-details-marker {
   .dark\:bg-gray-600 {
     --tw-bg-opacity: 1;
     background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   }
 
   .dark\:text-gray-300 {
