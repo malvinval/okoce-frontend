@@ -8043,6 +8043,11 @@ details.collapse summary::-webkit-details-marker {
   margin-bottom: 1.25rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -8117,6 +8122,22 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .box-border {
@@ -8329,6 +8350,15 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-screen-xl {
@@ -9664,6 +9694,10 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 2.25rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -10673,10 +10707,6 @@ details.collapse summary::-webkit-details-marker {
     width: 50%;
   }
 
-  .md\:w-10\/12 {
-    width: 83.333333%;
-  }
-
   .md\:w-5\/12 {
     width: 41.666667%;
   }
@@ -10687,10 +10717,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-8\/12 {
-    width: 66.666667%;
   }
 
   .md\:flex-row {
