@@ -24,7 +24,7 @@
     <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
     <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-10">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
-            <div class="px-2 flex flex-col justify-between">
+            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
                 <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
             </div>
 
@@ -59,7 +59,6 @@
                             Pengurus</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
-                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
                     </div>
                 </div>
 
@@ -539,4 +538,11 @@
     <!-- END FOOTER SECTION -->
 </body>
 <script src="./js/script.js"></script>
+<script>
+    const logo = document.getElementById('logo');
+
+    logo.addEventListener('click', () => {
+        window.location.href = '/';
+    });
+</script>
 </html>
