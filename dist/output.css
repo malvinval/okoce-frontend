@@ -8275,6 +8275,10 @@ details.collapse summary::-webkit-details-marker {
   height: 100vh;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -10749,14 +10753,14 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .md\:flex {
@@ -10823,6 +10827,11 @@ details.collapse summary::-webkit-details-marker {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
