@@ -23,10 +23,12 @@ module.exports = {
       },
       backgroundImage: {
         "hero-image": "url('./img/hero-img.png')",
-        "bg1" : "url('./img/bg1.png')"
+        "bg1" : "url('./img/bg1.png')",
+        "bg2" : "url('./img/bg2.png')"
       },
       backgroundSize : {
-        "bg1":"cover"
+        "bg1":"cover",
+        "bg2":"cover"
       }
     },
   },
