@@ -23,7 +23,7 @@
     <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
     <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-10">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
-            <div class="px-2 flex flex-col justify-between">
+            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
                 <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
             </div>
 
@@ -56,7 +56,6 @@
                         <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur Pengurus</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
-                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
                     </div>
                 </div>
 
@@ -270,44 +269,39 @@
     <!-- END MITRA SECTION -->
 
     <!-- START MAP AND STATS SECTION -->
-    <div class="flex justify-center w-full mb-0 md:pb-20 bg-white">
-        <div class="w-full sm:w-3/4 flex flex-col md:flex-row">
-            <div id="map" class="flex items-center w-4/5 mx-auto">
-                <div class="flex justify-center text-justify">
-                    <img src="./dist/img/map.png" alt="">
-                </div>
+    <div class="bg-white pb-20">
+        <div id="map" class="h-3/5 w-4/5 mx-auto">
+            <div class="flex justify-center text-justify">
+                <img src="./dist/img/map.png" alt="">
             </div>
+        </div>
 
-            <div class="w-full flex justify-center items-center my-20">
-                <div class="w-3/4 flex flex-col lg:flex-row justify-center items-center bg-detik-milk">
-
-                    <div class="lg:mt-0 flex flex-col flex-grow px-3 justify-center items-center">
-                        <div class="pb-2 md:pb-5">
-                            <h3 class="text-slate-700 text-center lg:text-left font-poppins text-2xl lg:text-4xl font-bold-700">
-                                14.367
-                            </h3>
-                        </div>
-                        <div class="pb-5">
-                            <h3 class="text-black text-center md:text-justify font-light font-jost">
-                                UMKM Anggota OK OCE Indonesia
-                            </h3>
-                        </div>
+        <div class="w-full flex justify-center items-center pt-16 text-slate-700">
+            <div class="w-3/4  about-container flex flex-col lg:flex-row justify-center items-center bg-detik-milk">
+                <div class="lg:mt-0 flex flex-col flex-grow pl-0 justify-center items-center">
+                    <div class="pb-5">
+                        <h3 id="about-headline" class="text-center lg:text-left font-poppins text-2xl lg:text-5xl font-bold-700">
+                            14.367
+                        </h3>
                     </div>
-
-                    <div class="lg:mt-0 flex flex-col flex-grow px-3 pl-0 justify-center items-center">
-                        <div class="pb-2 md:pb-5">
-                            <h3 class="text-slate-700 text-center lg:text-left font-poppins text-2xl lg:text-4xl font-bold-700">
-                                117
-                            </h3>
-                        </div>
-                        <div class="pb-5">
-                            <h3 class="text-black text-center md:text-justify font-light font-jost">
-                                Penggerak OK OCE Indonesia
-                            </h3>
-                        </div>
-                    </div>    
-
+                    <div class="pb-5">
+                        <h3 class="text-black text-justify font-light font-jost">
+                            UMKM Anggota OK OCE Indonesia
+                        </h3>
+                    </div>
                 </div>
+                <div class="lg:mt-0 flex flex-col flex-grow pl-0 justify-center items-center">
+                    <div class="pb-5">
+                        <h3 id="about-headline" class="text-center lg:text-left font-poppins text-2xl lg:text-5xl font-bold-700">
+                            117
+                        </h3>
+                    </div>
+                    <div class="pb-5">
+                        <h3 class="text-black text-justify font-light font-jost">
+                            Penggerak OK OCE Indonesia
+                        </h3>
+                    </div>
+                </div>            
             </div>
         </div>
     </div>
@@ -444,5 +438,12 @@
 
 <!-- javascript -->
 <script src="./js/script.js"></script>
+<script>
+    const logo = document.getElementById('logo');
+
+    logo.addEventListener('click', () => {
+        window.location.href = '/';
+    });
+</script>
 
 </html>
