@@ -9841,11 +9841,6 @@ details.collapse summary::-webkit-details-marker {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -11107,11 +11102,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:text-7xl {
     font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
     line-height: 1;
   }
 
