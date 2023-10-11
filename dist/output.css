@@ -8286,10 +8286,6 @@ details.collapse summary::-webkit-details-marker {
   height: 15rem;
 }
 
-.h-64 {
-  height: 16rem;
-}
-
 .h-7 {
   height: 1.75rem;
 }
@@ -8382,10 +8378,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .max-w-screen-md {
@@ -9712,6 +9704,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 8rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -9727,11 +9724,6 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 2rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -9742,10 +9734,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pb-28 {
   padding-bottom: 7rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .pb-5 {
@@ -9822,14 +9810,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pb-48 {
-  padding-bottom: 12rem;
 }
 
 .text-left {
@@ -10043,10 +10023,6 @@ details.collapse summary::-webkit-details-marker {
   line-height: 1.25;
 }
 
-.leading-6 {
-  line-height: 1.5rem;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -10123,16 +10099,6 @@ details.collapse summary::-webkit-details-marker {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-yellow-600 {
-  --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -11180,6 +11146,10 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:pb-48 {
+    padding-bottom: 12rem;
+  }
+
   .lg\:pl-10 {
     padding-left: 2.5rem;
   }
@@ -11202,10 +11172,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .lg\:pb-48 {
-    padding-bottom: 12rem;
   }
 
   .lg\:text-left {
