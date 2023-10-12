@@ -11100,10 +11100,6 @@ details.collapse summary::-webkit-details-marker {
     width: fit-content;
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
