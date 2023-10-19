@@ -7953,6 +7953,10 @@ details.collapse summary::-webkit-details-marker {
   top: 25%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -11235,6 +11239,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .lg\:pt-32 {
+    padding-top: 8rem;
   }
 
   .lg\:text-left {
