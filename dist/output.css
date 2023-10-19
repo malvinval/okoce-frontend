@@ -7949,14 +7949,6 @@ details.collapse summary::-webkit-details-marker {
   top: 50%;
 }
 
-.top-1\/4 {
-  top: 25%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -9771,6 +9763,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 2rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -11088,6 +11085,10 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 0.5rem;
   }
 
+  .md\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -11237,12 +11238,12 @@ details.collapse summary::-webkit-details-marker {
     padding-top: 5rem;
   }
 
-  .lg\:pt-48 {
-    padding-top: 12rem;
-  }
-
   .lg\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .lg\:pt-48 {
+    padding-top: 12rem;
   }
 
   .lg\:text-left {
@@ -11266,11 +11267,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
