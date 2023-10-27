@@ -11455,6 +11455,16 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 5rem;
   }
 
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
