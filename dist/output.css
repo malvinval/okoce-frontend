@@ -8377,10 +8377,6 @@ details.collapse summary::-webkit-details-marker {
   height: 100vh;
 }
 
-.h-\[221\.2px\] {
-  height: 221.2px;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -8472,10 +8468,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[221\.2px\] {
-  width: 221.2px;
 }
 
 .max-w-2xl {
@@ -9693,11 +9685,6 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -9889,6 +9876,10 @@ details.collapse summary::-webkit-details-marker {
      object-position: center;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -9907,14 +9898,6 @@ details.collapse summary::-webkit-details-marker {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .px-10 {
@@ -11436,10 +11419,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-10\/12 {
-    width: 83.333333%;
   }
 
   .md\:grid-cols-2 {
