@@ -9725,6 +9725,18 @@ details.collapse summary::-webkit-details-marker {
   background-image: url('../7top-detail-pages/img/edukasi-keuangan-perbankan.png');
 }
 
+.bg-kopi-blend-emotikopi {
+  background-image: url('../7top-detail-pages/img/kopi-blend-emotikopi.jpg');
+}
+
+.bg-nasi-kotak {
+  background-image: url('../7top-detail-pages/img/nasi-kotak.jpg');
+}
+
+.bg-panir-bawang {
+  background-image: url('../7top-detail-pages/img/panir-bawang.jpg');
+}
+
 .bg-pelatihan-master-mentor {
   background-image: url('../7top-detail-pages/img/master-mentor-2.webp');
 }
@@ -9739,18 +9751,6 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-pengelolaan-keuangan {
   background-image: url('../7top-detail-pages/img/pengelolaan-keuangan.png');
-}
-
-.bg-panir-bawang {
-  background-image: url('../7top-detail-pages/img/panir-bawang.jpg');
-}
-
-.bg-nasi-kotak {
-  background-image: url('../7top-detail-pages/img/nasi-kotak.jpg');
-}
-
-.bg-kopi-blend-emotikopi {
-  background-image: url('../7top-detail-pages/img/kopi-blend-emotikopi.jpg');
 }
 
 .decoration-slice {
@@ -10086,6 +10086,10 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 2.25rem;
 }
 
+.pt-44 {
+  padding-top: 11rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -10193,6 +10197,11 @@ details.collapse summary::-webkit-details-marker {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -10432,6 +10441,26 @@ details.collapse summary::-webkit-details-marker {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.text-okoce-light-blue {
+  --tw-text-opacity: 1;
+  color: rgb(62 183 221 / var(--tw-text-opacity));
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: rgb(219 39 119 / var(--tw-text-opacity));
+}
+
+.text-pink-700 {
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -11598,6 +11627,11 @@ details.collapse summary::-webkit-details-marker {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pb-48 {
