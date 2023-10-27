@@ -9697,12 +9697,28 @@ details.collapse summary::-webkit-details-marker {
   background-image: url('../7top-detail-pages/img/fintech.png');
 }
 
+.bg-ganyem-1 {
+  background-image: url('../7top-detail-pages/img/ganyem-1.jpg');
+}
+
+.bg-ganyem-2 {
+  background-image: url('../7top-detail-pages/img/ganyem-2.jpg');
+}
+
+.bg-ganyem-3 {
+  background-image: url('../7top-detail-pages/img/ganyem-3.jpg');
+}
+
 .bg-hero-image {
   background-image: url('./img/hero-img.png');
 }
 
 .bg-investasi-ilegal {
   background-image: url('../7top-detail-pages/img/waspada-investasi-ilegal.png');
+}
+
+.bg-kembang-loyang {
+  background-image: url('../7top-detail-pages/img/kembang-loyang.jpeg');
 }
 
 .bg-keuangan-perbankan {
@@ -9723,6 +9739,18 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-pengelolaan-keuangan {
   background-image: url('../7top-detail-pages/img/pengelolaan-keuangan.png');
+}
+
+.bg-panir-bawang {
+  background-image: url('../7top-detail-pages/img/panir-bawang.jpg');
+}
+
+.bg-nasi-kotak {
+  background-image: url('../7top-detail-pages/img/nasi-kotak.jpg');
+}
+
+.bg-kopi-blend-emotikopi {
+  background-image: url('../7top-detail-pages/img/kopi-blend-emotikopi.jpg');
 }
 
 .decoration-slice {

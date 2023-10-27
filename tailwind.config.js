@@ -34,6 +34,13 @@ module.exports = {
         "keuangan-perbankan": "url('../7top-detail-pages/img/edukasi-keuangan-perbankan.png')",
         "fintech": "url('../7top-detail-pages/img/fintech.png')",
         "investasi-ilegal": "url('../7top-detail-pages/img/waspada-investasi-ilegal.png')",
+        "ganyem-1": "url('../7top-detail-pages/img/ganyem-1.jpg')",
+        "ganyem-2": "url('../7top-detail-pages/img/ganyem-2.jpg')",
+        "ganyem-3": "url('../7top-detail-pages/img/ganyem-3.jpg')",
+        "kembang-loyang": "url('../7top-detail-pages/img/kembang-loyang.jpeg')",
+        "panir-bawang": "url('../7top-detail-pages/img/panir-bawang.jpg')",
+        "nasi-kotak": "url('../7top-detail-pages/img/nasi-kotak.jpg')",
+        "kopi-blend-emotikopi": "url('../7top-detail-pages/img/kopi-blend-emotikopi.jpg')",
       },
       backgroundSize : {
         "bg1":"cover"
