@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan - OK OCE Indonesia</title>
+    <link rel="stylesheet" href="../dist/output.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./dist/img/logo-okoce.webp" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
+    <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-40">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
+            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+                <img src=" ../dist/img/logo-okoce.webp" alt="" class="w-[100px]">
+            </div>
+
+            <!-- toggle menu hamburger -->
+            <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-700 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+                <!-- LINK TENTANG KAMI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 px-4">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                            Tentang Kami
+                        </a>
+                    </div>
+                    <!-- ANAK LINK TENTANG KAMI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
+                        <a href="visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Nilai Inti</a>
+                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
+                            Pengurus</a>
+                        <a href="7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
+                    </div>
+                </div>
+
+                <!-- LINK MEDIA -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                            Media
+                        </a>
+                    </div>
+                    <!-- ANAK LINK MEDIA -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/media.html#berita" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Berita</a>
+                        <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
+                        <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
+                    </div>
+                </div>
+
+                <!-- LINK ETALASE -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Etalase
+                        </a>
+                    </div>
+                    <!-- ANAK LINK ETALASE -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="merchandise.html"
+                            class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">E-meterai</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Pasar OK OCE</a>
+                    </div>
+                </div>
+
+                <!-- LINK PELUANG -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Peluang
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PELUANG -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Usaha</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Kerja</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Magang</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Penggerak</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Trainer</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mitra Kerjasama</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Donasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK PROGRAM -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Program
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PROGRAM -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Brand Lokal OK</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Modal Berkah</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Emak Kece</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
+                        <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK INFORMASI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            INFORMASI
+                        </a>
+                    </div>
+                    <!-- ANAK LINK INFORMASI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
+                        <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
+                            Daftar</a>
+                        <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
+                    </div>
+                </div>
+
+                <!-- LINK MASUK -->
+                <div class="py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a href="https://www.ecsys.okoce.net" target="blank"
+                            class="bg-okoce-blue rounded-half uppercase menu-hover my-2 py-2 px-5 text-sm font-medium text-white"
+                            onClick="">
+                            MASUK
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START PELATIHAN BODY SECTION -->
+    <div id="pelatihan-body" class="w-full pt-40 font-jost flex justify-center">
+        <div class="w-full lg:w-3/4">
+            <div>
+                <h1 class="text-center text-4xl font-bold text-okoce-blue">Pelatihan</h1>
+            </div>
+
+            <div class="py-5 px-3 w-full md:w-3/4 mx-auto">
+                <p class="text-lg text-center">Melalui OK OCE, usaha Sobat akan mendapatkan fasilitas pendampingan Oleh Mentor OK OCE dalam kegiatan pemasaran, permodalan, laporan keuangan, konsultasi ide-ide kreatif dan inovatif, perubahan mindset kewirausahaan, mencari penyelesaian permasalahan usaha, hingga pembentukan karakter untuk menjadi UMKM Naik Kelas. Fasilitas tersebut dapat diakses melalui sistem OK OCE pada kolom Inkubasi Usaha, Chat Mentor, maupun Kolaborator.</p>
+            </div>
+            
+            <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                <div class="pr-0 md:pr-10">
+                    <img class="w-56" src="./img/inkubasi.png" alt="">
+                    <p class="text-center font-bold text-red-500">Inkubasi Usaha</p>
+                </div>
+                <div class="pr-0 md:pr-10">
+                    <img class="w-56" src="./img/chat.png" alt="">
+                    <p class="text-center font-bold text-red-500">Chat Mentor</p>
+                </div>
+                <div>
+                    <img class="w-56" src="./img/kolaborator.png" alt="">
+                    <p class="text-center font-bold text-red-500">Kolaborator</p>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-center text-4xl font-bold text-okoce-blue pt-16">Para Kolaborator</h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 py-20" id="kolaborator-container">
+                <div class="pb-14">
+                    <img class="mx-auto" class="mx-auto" src="../dist/img/mitra-kerjasama/az-indonesia.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/cetakkemasan.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/eduversal.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/ekles.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/indivara.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/inotek.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/jnj-group.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/wgshub.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/kk-indonesia.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/smeshub.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/pajakonline.png" alt="">
+                </div>
+                <div class="pb-14">
+                    <img class="mx-auto" src="../dist/img/mitra-kerjasama/travelbook.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PELATIHAN BODY SECTION -->
+</body>
+<!-- javascript -->
+<script src="../js/script.js"></script>
+<script>
+    const logo = document.getElementById('logo');
+
+    logo.addEventListener('click', () => {
+        window.location.href = '/';
+    });
+</script>
+<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+</html>
