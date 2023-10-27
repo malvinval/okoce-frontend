@@ -170,4 +170,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 }
 
+@media screen and (min-width: 1700px) {
+    #pelatihan-card {
+        width: 20rem;
+    }
+}
+
 /* END MITRA KERJASAMA ANIMATION */

@@ -8340,6 +8340,10 @@ details.collapse summary::-webkit-details-marker {
   height: 1rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -8425,8 +8429,20 @@ details.collapse summary::-webkit-details-marker {
   width: 1.25rem;
 }
 
+.w-56 {
+  width: 14rem;
+}
+
 .w-6 {
   width: 1.5rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .w-8\/12 {
@@ -8448,18 +8464,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-56 {
-  width: 14rem;
 }
 
 .max-w-2xl {
@@ -8854,20 +8858,12 @@ details.collapse summary::-webkit-details-marker {
   grid-auto-flow: column dense;
 }
 
-.grid-cols-12 {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -9058,12 +9054,12 @@ details.collapse summary::-webkit-details-marker {
   gap: 3.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -9404,6 +9400,10 @@ details.collapse summary::-webkit-details-marker {
   border-radius: 0.375rem;
 }
 
+.rounded-none {
+  border-radius: 0px;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -9606,6 +9606,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-base-100 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+}
+
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
@@ -9676,21 +9681,6 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(202 138 4 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -9699,8 +9689,36 @@ details.collapse summary::-webkit-details-marker {
   background-image: url('./img/bg3.jpg');
 }
 
+.bg-fintech {
+  background-image: url('../7top-detail-pages/img/fintech.png');
+}
+
 .bg-hero-image {
   background-image: url('./img/hero-img.png');
+}
+
+.bg-investasi-ilegal {
+  background-image: url('../7top-detail-pages/img/waspada-investasi-ilegal.png');
+}
+
+.bg-keuangan-perbankan {
+  background-image: url('../7top-detail-pages/img/edukasi-keuangan-perbankan.png');
+}
+
+.bg-pelatihan-master-mentor {
+  background-image: url('../7top-detail-pages/img/master-mentor-2.webp');
+}
+
+.bg-pelatihan-optimasi-bisnis {
+  background-image: url('../7top-detail-pages/img/optimasi-bisnis.webp');
+}
+
+.bg-pelatihan-ukm {
+  background-image: url('../7top-detail-pages/img/pelatihan-kolaborasi-ukm-strategi.jpg');
+}
+
+.bg-pengelolaan-keuangan {
+  background-image: url('../7top-detail-pages/img/pengelolaan-keuangan.png');
 }
 
 .decoration-slice {
@@ -9901,6 +9919,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -9931,13 +9954,12 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 2rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
 }
 
 .pb-20 {
@@ -9974,6 +9996,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pr-0 {
   padding-right: 0px;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .pr-5 {
@@ -10022,22 +10048,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-72 {
-  padding-bottom: 18rem;
-}
-
-.pb-14 {
-  padding-bottom: 3.5rem;
 }
 
 .text-left {
@@ -10907,6 +10917,12 @@ details.collapse summary::-webkit-details-marker {
   }
 }
 
+@media screen and (min-width: 1700px) {
+  #pelatihan-card {
+    width: 20rem;
+  }
+}
+
 /* END MITRA KERJASAMA ANIMATION */
 
 @media (hover:hover) {
@@ -11342,14 +11358,6 @@ details.collapse summary::-webkit-details-marker {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -11380,6 +11388,10 @@ details.collapse summary::-webkit-details-marker {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .md\:pb-2 {
@@ -11477,6 +11489,10 @@ details.collapse summary::-webkit-details-marker {
     width: 66.666667%;
   }
 
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:w-6 {
     width: 1.5rem;
   }
@@ -11494,20 +11510,12 @@ details.collapse summary::-webkit-details-marker {
     width: fit-content;
   }
 
-  .lg\:w-3\/4 {
-    width: 75%;
-  }
-
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4 {
@@ -11582,10 +11590,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:pt-48 {
     padding-top: 12rem;
-  }
-
-  .lg\:pr-10 {
-    padding-right: 2.5rem;
   }
 
   .lg\:text-left {

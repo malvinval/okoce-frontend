@@ -25,7 +25,15 @@ module.exports = {
         "hero-image": "url('./img/hero-img.png')",
         "bg1" : "url('./img/bg1.png')",
         "bg2" : "url('./img/bg2.png')",
-        "bg3" : "url('./img/bg3.jpg')"
+        "bg3" : "url('./img/bg3.jpg')",
+        "pelatihan-ukm": "url('../7top-detail-pages/img/pelatihan-kolaborasi-ukm-strategi.jpg')",
+        "pelatihan-master-mentor": "url('../7top-detail-pages/img/master-mentor-2.webp')",
+        "pelatihan-optimasi-bisnis": "url('../7top-detail-pages/img/optimasi-bisnis.webp')",
+        "riwayat-kredit": "url('../7top-detail-pages/img/riwayat-kredit.png')",
+        "pengelolaan-keuangan": "url('../7top-detail-pages/img/pengelolaan-keuangan.png')",
+        "keuangan-perbankan": "url('../7top-detail-pages/img/edukasi-keuangan-perbankan.png')",
+        "fintech": "url('../7top-detail-pages/img/fintech.png')",
+        "investasi-ilegal": "url('../7top-detail-pages/img/waspada-investasi-ilegal.png')",
       },
       backgroundSize : {
         "bg1":"cover"
