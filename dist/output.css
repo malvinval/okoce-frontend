@@ -8425,6 +8425,10 @@ details.collapse summary::-webkit-details-marker {
   width: 80%;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -9960,6 +9964,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pb-14 {
   padding-bottom: 3.5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .pb-20 {
