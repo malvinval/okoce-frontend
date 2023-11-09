@@ -11380,6 +11380,10 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 2rem;
   }
 
+  .sm\:pb-0 {
+    padding-bottom: 0px;
+  }
+
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -11729,6 +11733,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:text-left {
