@@ -8429,6 +8429,10 @@ details.collapse summary::-webkit-details-marker {
   width: 80%;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -8476,22 +8480,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .max-w-2xl {
@@ -9709,16 +9697,17 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
 
 .bg-bg3 {
   background-image: url('./img/bg3.jpg');
-}
-
-.bg-bg4 {
-  background-image: url('./img/banner-home.jpg');
 }
 
 .bg-fintech {
@@ -11504,6 +11493,11 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 5rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -11518,6 +11512,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
   }
 
   .md\:text-2xl {
