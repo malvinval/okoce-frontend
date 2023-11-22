@@ -8441,10 +8441,6 @@ details.collapse summary::-webkit-details-marker {
   width: 80%;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
 .w-44 {
   width: 11rem;
 }
@@ -11478,6 +11474,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
   }
 
   .md\:grid-cols-2 {
