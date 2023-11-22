@@ -8425,10 +8425,6 @@ details.collapse summary::-webkit-details-marker {
   width: 75%;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -9786,14 +9782,14 @@ details.collapse summary::-webkit-details-marker {
   background-image: url('../7top-detail-pages/img/pengelolaan-keuangan.png');
 }
 
-.from-red-800 {
-  --tw-gradient-from: #991b1b var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(153 27 27 / 0) var(--tw-gradient-to-position);
+.from-okoce-red {
+  --tw-gradient-from: #E01D28 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(224 29 40 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-blue-800 {
-  --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
+.to-okoce-blue {
+  --tw-gradient-to: #007CBD var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
@@ -11460,6 +11456,10 @@ details.collapse summary::-webkit-details-marker {
     width: 75%;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:w-5\/12 {
     width: 41.666667%;
   }
@@ -11474,10 +11474,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
   }
 
   .md\:grid-cols-2 {

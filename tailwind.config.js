@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         "okoce-light-blue": "#3EB7DD",
         "okoce-blue": "#007CBD",
+        "okoce-red" : "#E01D28",
       },
       backgroundImage: {
         "hero-image": "url('./img/hero-img.png')",
