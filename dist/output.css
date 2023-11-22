@@ -8429,6 +8429,10 @@ details.collapse summary::-webkit-details-marker {
   width: 80%;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -8478,20 +8482,16 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
-.w-20 {
-  width: 5rem;
+.w-5\/6 {
+  width: 83.333333%;
 }
 
-.w-36 {
-  width: 9rem;
+.w-4\/6 {
+  width: 66.666667%;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
-.w-48 {
-  width: 12rem;
+.w-3\/5 {
+  width: 60%;
 }
 
 .max-w-2xl {
@@ -9717,10 +9717,6 @@ details.collapse summary::-webkit-details-marker {
   background-image: url('./img/bg3.jpg');
 }
 
-.bg-bg4 {
-  background-image: url('./img/banner-home.jpg');
-}
-
 .bg-fintech {
   background-image: url('../7top-detail-pages/img/fintech.png');
 }
@@ -9779,6 +9775,30 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-pengelolaan-keuangan {
   background-image: url('../7top-detail-pages/img/pengelolaan-keuangan.png');
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-red-500 {
+  --tw-gradient-from: #ef4444 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(239 68 68 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-red-800 {
+  --tw-gradient-from: #991b1b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(153 27 27 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-blue-500 {
+  --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
+}
+
+.to-blue-800 {
+  --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
 }
 
 .decoration-slice {

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Pengurus - OK OCE Indonesia</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./dist/img/logo-okoce.webp" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
+    <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-10">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
+            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+                <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
+            </div>
+
+            <!-- toggle menu hamburger -->
+            <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-700 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+                <!-- LINK TENTANG KAMI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 px-4">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Tentang Kami
+                        </a>
+                    </div>
+                    <!-- ANAK LINK TENTANG KAMI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
+                        <a href="visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Nilai Inti</a>
+                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
+                            Pengurus</a>
+                        <a href="7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
+                    </div>
+                </div>
+
+                <!-- LINK MEDIA -->
+                <!-- <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                            Media
+                        </a>
+                    </div>
+                    
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/media.html#berita" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Berita</a>
+                        <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
+                        <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
+                    </div>
+                </div> -->
+
+                <!-- LINK ETALASE -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Etalase
+                        </a>
+                    </div>
+                    <!-- ANAK LINK ETALASE -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="merchandise.html"
+                            class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">E-meterai</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Pasar OK OCE</a>
+                    </div>
+                </div>
+
+                <!-- LINK PELUANG -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Peluang
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PELUANG -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Usaha</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Kerja</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Magang</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Penggerak</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Trainer</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mitra Kerjasama</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Donasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK PROGRAM -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Program
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PROGRAM -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Brand Lokal OK</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Modal Berkah</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Emak Kece</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
+                        <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK INFORMASI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            INFORMASI
+                        </a>
+                    </div>
+                    <!-- ANAK LINK INFORMASI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
+                        <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
+                            Daftar</a>
+                        <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
+                    </div>
+                </div>
+
+                <!-- LINK MASUK -->
+                <div class="py-2">
+                    <div class="flex flex-col md:flex-row items-center justify-center md:space-x-5 bg-white px-4">
+                        <a href="https://www.ecsys.okoce.net" target="blank"
+                            class="bg-okoce-blue rounded-half uppercase menu-hover my-2 py-2 px-5 text-sm font-medium text-white"
+                            onClick="">
+                            MASUK
+                        </a>
+
+                        <a href="https://ecsys.okoce.net/register" target="blank"
+                            class="bg-okoce-blue rounded-half uppercase menu-hover my-2 py-2 px-5 text-sm font-medium text-white"
+                            onClick="">
+                            DAFTAR
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <section class="bg-gradient-to-r from-red-800 to-blue-800 pt-24 lg:pt-20 shadow-xl bg-fixed bg-cover bg-center">
+        <div class="py-32 px-4 mx-auto max-w-screen-xl lg:px-6 ">
+            <div class="flex justify-center mx-auto max-w-screen-sm text-center">
+                <h1 class="font-bold text-4xl text-white">Sejarah OK OCE Indonesia</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-white">
+        <div class="w-3/5 mx-auto text-center py-10 text-slate-800 font-jost">
+            <p>OK OCE Born as a concept at 1998 in Uno’s family, consists of Min and Hank Uno. At that time, many college students from Gorontalo can’t continue their studies at Jakarta, and asking for scholarship to the Uno family. And after they passed the college, they came back to Uno’s farm to work.
+            </p><br>
+            <p>After some years, they finally remake and remodel the scholarship program from normal program to enterprenuer scholarship program, consisted of training,marketing, and budgeting school. As a result, Mien R Uno foundation born at 2000.
+            </p><br>
+            <p>In 2016, Sandiaga Uno campaigned for the position of Vice Governor of Jakarta, running alongside Anies Baswedan. During this period, Indonesia faced challenging economic conditions, resulting in the closure of numerous companies and a surge in unemployment in Jakarta, affecting around 300 thousand individuals according to available data. In response to these challenges, Uno and Baswedan proposed a solution aimed at fostering entrepreneurship. They introduced the OK OCE program, designed to encourage and support individuals in becoming entrepreneurs, thereby mitigating the impact of economic hardships on the local population. The objective of this program is to establish at least one entrepreneurship hub in each district of Jakarta. Their ambitious goal spans from 2017 to 2022, aiming to create 200 thousand job opportunities through the growth of entrepreneurs in the region.
+            </p><br>
+            <p>Then, in 2017 they started the program in 44 subdistrict on Jakarta with their curriculum of 7 TOP (7 Tahapan OK OCE Prima) which consists of Registration, Training, Assistance, Licensing, Financial Records and Access to Capital (Pendaftaran, Pelatihan, Pendampingan, Perizinan, Pencatatan Keuangan dan Akses Permodalan).
+            </p><br>
+            <p>In 2018, Mr. Uno resigned from his position to campaign for Vice President alongside Mr. Prabowo. Subsequently, the OK OCE Program expanded its reach beyond DKI Jakarta to encompass all of Indonesia. The OK OCE program became a cornerstone of Mr. Sandi's political platform as he aspired to become a vice presidential candidate, setting a goal of generating 2 million jobs within a five-year period until 2024. Despite Mr. Uno not securing the vice-presidential position, the OK OCE Movement successfully fulfilled its promise to create 2 million jobs without relying on the state budget. The achievement was realized through grassroots efforts and community contributions.
+            </p><br>
+            <p>As of 2023, OK OCE has already generated 1.5 million jobs, leaving just 500,000 more to reach the stated goal. Notably, the OK OCE program's local initiative in DKI Jakarta, now known as JakPreneur, boasts a membership of 340,000 individuals, further exemplifying the widespread impact and success of the program.
+            </p>
+        </div>
+    </div>
+
+    <!-- START FOOTER SECTION -->
+    <footer class="bg-white flex flex-col items-center text-center font-jost shadow-inner pt-8 text-slate-700">
+        <div class="flex flex-col md:flex-row mt-8 mb-0">
+            <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px] mx-2">
+            <img src="./dist/img/gerakan-sosial.webp" alt="" class="w-[100px] mx-2">
+        </div>
+        <div class="container pt-8 font-bold text-base px-2">
+            Perkumpulan Gerakan OK OCE Indonesia
+        </div>
+        <div class="container pt-4 text-xs px-3">
+            Jl. Tebet Barat Dalam VII No.3, RT.9/RW.6, Tebet Barat, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota
+            Jakarta 12810
+        </div>
+        <div class="container pt-9 w-2/5 text-2xl flex-col">
+            <div class="mb-9 flex justify-evenly">
+                <a href="https://www.facebook.com/profile.php?id=100064564037361"
+                    class="fa-brands fa-facebook mx-1.5"></a>
+                <a href="https://twitter.com/okoceindonesia" class="fa-brands fa-x-twitter mx-1.5"></a>
+                <a href="https://instagram.com/okoce.indonesia" class="fa-brands fa-instagram mx-1.5"></a>
+                <a href="https://www.youtube.com/channel/UCrXYetY5iBgnFnNKCVYzihw"
+                    class="fa-brands fa-youtube mx-1.5"></a>
+                <a href="mailto:admin@okoce.net" class=" fa fa-solid fa-envelope mx-1.5"></a>
+            </div>
+        </div>
+
+        <div class="w-full p-4 text-xs bg-okoce-blue dark:text-neutral-200">
+            Hak cipta © 2023 OK OCE Indonesia. Seluruh hak cipta dilindungi undang-undang.
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+</body>
+<script src="./js/script.js"></script>
+<script>
+    const logo = document.getElementById('logo');
+
+    logo.addEventListener('click', () => {
+        window.location.href = '/';
+    });
+</script>
+</html>
