@@ -239,8 +239,15 @@
         </button>
     </div>
 
+    <div class="bg-white text-center pt-8">
+        <div class="language-toggle mx-auto">
+            <span id="language-indicator" class="mr-2">English</span>
+            <input type="range" id="language-slider" min="0" max="1" step="1" value="0" class="slider-thumb appearance-none w-12 h-6 rounded-full bg-okoce-light-blue align-middle">
+            <span class="ml-2">Indonesia</span>
+        </div>
+    </div>
 
-    <div class="w-full bg-white">                    
+    <div class="w-full bg-white" id="text-en">                    
         <div class="w-11/12 md:w-3/5 mx-auto text-center py-10 text-slate-800 font-jost">
             <p>OK OCE Born as a concept at 1998 in Uno’s family, consists of Min and Hank Uno. At that time, many college students from Gorontalo can’t continue their studies at Jakarta, and asking for scholarship to the Uno family. And after they passed the college, they came back to Uno’s farm to work.
             </p><br>
@@ -253,6 +260,23 @@
             <p>In 2018, Mr. Uno resigned from his position to campaign for Vice President alongside Mr. Prabowo. Subsequently, the OK OCE Program expanded its reach beyond DKI Jakarta to encompass all of Indonesia. The OK OCE program became a cornerstone of Mr. Sandi's political platform as he aspired to become a vice presidential candidate, setting a goal of generating 2 million jobs within a five-year period until 2024. Despite Mr. Uno not securing the vice-presidential position, the OK OCE Movement successfully fulfilled its promise to create 2 million jobs without relying on the state budget. The achievement was realized through grassroots efforts and community contributions.
             </p><br>
             <p>As of 2023, OK OCE has already generated 1.5 million jobs, leaving just 500,000 more to reach the stated goal. Notably, the OK OCE program's local initiative in DKI Jakarta, now known as JakPreneur, boasts a membership of 340,000 individuals, further exemplifying the widespread impact and success of the program.
+            </p>
+        </div>
+    </div>
+
+    <div class="w-full bg-white hidden" id="text-id">                    
+        <div class="w-11/12 md:w-3/5 mx-auto text-center py-10 text-slate-800 font-jost">
+            <p>OK OCE lahir sebagai sebuah konsep pada tahun 1998 di keluarga Uno, yang terdiri dari Min dan Hank Uno. Pada saat itu, banyak mahasiswa dari Gorontalo yang tidak bisa melanjutkan kuliah di Jakarta, dan meminta beasiswa kepada keluarga Uno. Dan setelah mereka lulus kuliah, mereka kembali ke perkebunan milik Uno untuk bekerja.
+            </p><br>
+            <p>Setelah beberapa tahun, mereka akhirnya membuat ulang dan merombak program beasiswa dari program biasa menjadi program beasiswa enterprenuer, yang terdiri dari pelatihan, pemasaran, dan sekolah penganggaran. Hasilnya, lahirlah Mien R Uno Foundation pada tahun 2000.
+            </p><br>
+            <p>Pada tahun 2016, Sandiaga Uno berkampanye untuk posisi Wakil Gubernur Jakarta, berpasangan dengan Anies Baswedan. Selama periode ini, Indonesia menghadapi kondisi ekonomi yang menantang, yang mengakibatkan penutupan sejumlah perusahaan dan lonjakan pengangguran di Jakarta, yang mempengaruhi sekitar 300 ribu orang menurut data yang tersedia. Menanggapi tantangan-tantangan ini, Sandiaga Uno dan Anies Baswedan mengajukan sebuah solusi yang bertujuan untuk menumbuhkan kewirausahaan. Mereka memperkenalkan program OK OCE, yang dirancang untuk mendorong dan mendukung individu untuk menjadi wirausahawan, sehingga mengurangi dampak kesulitan ekonomi terhadap penduduk setempat. Tujuan dari program ini adalah untuk membangun setidaknya satu pusat kewirausahaan di setiap distrik di Jakarta. Target ambisius mereka dimulai dari tahun 2017 hingga 2022, yang bertujuan untuk menciptakan 200 ribu kesempatan kerja melalui pertumbuhan wirausaha di wilayah tersebut.
+            </p><br>
+            <p>Kemudian, pada tahun 2017, mereka memulai program ini di 44 kecamatan di Jakarta dengan kurikulum 7 TOP (7 Tahapan OK OCE Prima) yang terdiri dari Pendaftaran, Pelatihan, Pendampingan, Perizinan, Pencatatan Keuangan dan Akses Permodalan.
+            </p><br>
+            <p>Pada tahun 2018, Sandiaga Uno mengundurkan diri dari jabatannya untuk mencalonkan diri sebagai Wakil Presiden mendampingi Prabowo. Setelah itu, Program OK OCE memperluas jangkauannya di luar DKI Jakarta hingga mencakup seluruh Indonesia. Program OK OCE menjadi landasan platform politik Bapak Sandi saat ia mencalonkan diri sebagai calon wakil presiden, dengan target menciptakan 2 juta lapangan kerja dalam jangka waktu lima tahun hingga tahun 2024. Meskipun Sandiaga Uno tidak berhasil mendapatkan posisi wakil presiden, Gerakan OK OCE berhasil memenuhi janjinya untuk menciptakan 2 juta lapangan kerja tanpa bergantung pada anggaran negara. Pencapaian ini diwujudkan melalui upaya akar rumput dan kontribusi masyarakat.
+            </p><br>
+            <p>Pada tahun 2023, OK OCE telah menciptakan 1,5 juta lapangan kerja, dan hanya menyisakan 500.000 lapangan kerja lagi untuk mencapai target yang ditetapkan. Inisiatif lokal program OK OCE di DKI Jakarta, yang sekarang dikenal sebagai JakPreneur, memiliki keanggotaan sebanyak 340.000 orang, yang semakin menunjukkan dampak dan keberhasilan program ini secara luas.
             </p>
         </div>
     </div>
@@ -290,11 +314,34 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 <script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
 <script>
     const logo = document.getElementById('logo');
 
     logo.addEventListener('click', () => {
         window.location.href = '/';
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const languageSlider = document.getElementById('language-slider');
+    const languageIndicator = document.getElementById('language-indicator');
+    const textEn = document.getElementById('text-en');
+    const textId = document.getElementById('text-id');
+
+    languageSlider.addEventListener('input', function() {
+        const value = parseInt(languageSlider.value);
+
+        if (value === 0) {
+            // Switch to English
+            textEn.style.display = 'block';
+            textId.style.display = 'none';
+        } else {
+            // Switch to Indonesian
+            textEn.style.display = 'none';
+            textId.style.display = 'block';
+        }
+    });
+});
+
 </script>
 </html>
