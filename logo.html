@@ -205,7 +205,7 @@
                             <a href="#" class="text-slate-700">OK OCE Indonesia</a>
                         </h3>
 
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/logo-okoce.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/logo-okoce.png">Download</button>
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@
                         <h3 class="text-xl font-bold tracking-tight dark:text-white">
                             <a href="#" class="text-slate-700">Gerakan Sosial</a>
                         </h3>
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/gerakan-sosial.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/gerakan-sosial.png">Download</button>
                     </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                             <a href="#" class="text-slate-700">Desapreneur</a>
                         </h3>
 
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/desapreneur.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/desapreneur.png">Download</button>
                     </div>
                 </div>
 
@@ -254,7 +254,7 @@
                         <h3 class="text-xl font-bold tracking-tight dark:text-white">
                             <a href="#" class="text-slate-700">Masjid Pemberdaya</a>
                         </h3>
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/masjid-pemberdaya.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/masjid-pemberdaya.png">Download</button>
                     </div>
                 </div>
 
@@ -269,7 +269,7 @@
                             <a href="#" class="text-slate-700">Emak Kece</a>
                         </h3>
 
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/emak-kece.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/emak-kece.png">Download</button>
                     </div>
                 </div>
 
@@ -283,7 +283,7 @@
                         <h3 class="text-xl font-bold tracking-tight dark:text-white">
                             <a href="#" class="text-slate-700">Brand Lokal OK</a>
                         </h3>
-                        <p class="text-blue-500 py-3" data-media-link="dist/img/brand-lokal-ok.png">Download</p>
+                        <button class="text-blue-500 py-3" data-media-link="dist/img/brand-lokal-ok.png">Download</button>
                     </div>
                 </div>
             </div>
@@ -339,7 +339,7 @@
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'media';
+      a.download = '';
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
@@ -348,7 +348,7 @@
 }
 
     document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('p[data-media-link]');
+    const buttons = document.querySelectorAll('button[data-media-link]');
     
     buttons.forEach(button => {
         button.addEventListener('click', function() {
