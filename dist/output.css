@@ -9752,6 +9752,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -10071,11 +10076,6 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 2rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -10308,11 +10308,6 @@ details.collapse summary::-webkit-details-marker {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -11221,6 +11216,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -11505,11 +11505,6 @@ details.collapse summary::-webkit-details-marker {
     line-height: 1.75rem;
   }
 
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -11655,6 +11650,11 @@ details.collapse summary::-webkit-details-marker {
     line-height: 2rem;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -11662,21 +11662,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 
