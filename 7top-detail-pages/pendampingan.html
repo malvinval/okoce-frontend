@@ -16,18 +16,19 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
     <!-- START NAVBAR -->
     <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
     <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
-            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
-                <img src=" ../dist/img/logo-okoce.webp" alt="" class="w-[100px]">
+            <div class="px-2 ml-2 md:ml-0 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+                <img src=" ./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
             </div>
 
             <!-- toggle menu hamburger -->
             <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-700 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 w-10 h-10 mr-2 justify-center text-sm text-slate-700 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -37,10 +38,10 @@
                 </svg>
             </button>
 
-            <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+            <div class="hidden w-full lg:flex lg:w-auto" id="navbar-default">
                 <!-- LINK TENTANG KAMI -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 px-4">
+                    <div class="flex items-center justify-between space-x-5 px-2">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
                             Tentang Kami
                         </a>
@@ -48,19 +49,19 @@
                     <!-- ANAK LINK TENTANG KAMI -->
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
                         onClick="">
-                        <a href="../sejarah.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
-                        <a href="../visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
+                        <a href="sejarah.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
+                        <a href="visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Nilai Inti</a>
-                        <a href="../struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
+                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
                             Pengurus</a>
-                        <a href="../7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
+                        <a href="7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
                     </div>
                 </div>
 
                 <!-- LINK MEDIA -->
-                <!-- <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
                             Media
                         </a>
@@ -68,15 +69,15 @@
                     
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
                         onClick="">
-                        <a href="../media.html#berita" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Berita</a>
-                        <a href="../media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
-                        <a href="../media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
+                        <a href="/media.html#berita" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Berita</a>
+                        <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
+                        <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- LINK ETALASE -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Etalase
@@ -85,7 +86,7 @@
                     <!-- ANAK LINK ETALASE -->
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
                         onClick="">
-                        <a href="../merchandise.html"
+                        <a href="merchandise.html"
                             class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">E-meterai</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Pasar OK OCE</a>
@@ -94,7 +95,7 @@
 
                 <!-- LINK PELUANG -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Peluang
@@ -116,7 +117,7 @@
 
                 <!-- LINK PROGRAM -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Program
@@ -131,14 +132,14 @@
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
-                        <a href="../master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
+                        <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
                     </div>
                 </div>
 
                 <!-- LINK INFORMASI -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             INFORMASI
@@ -147,10 +148,10 @@
                     <!-- ANAK LINK INFORMASI -->
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
                         onClick="">
-                        <a href="../info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
-                        <a href="../info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
+                        <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
+                        <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
                             Daftar</a>
-                        <a href="../info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
+                        <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
                     </div>
                 </div>
 

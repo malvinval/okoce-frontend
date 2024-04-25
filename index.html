@@ -23,13 +23,13 @@
     <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
     <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
-            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+            <div class="px-2 ml-2 md:ml-0 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
                 <img src=" ./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
             </div>
 
             <!-- toggle menu hamburger -->
             <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-700 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 w-10 h-10 mr-2 justify-center text-sm text-slate-700 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -39,10 +39,10 @@
                 </svg>
             </button>
 
-            <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+            <div class="hidden w-full lg:flex lg:w-auto" id="navbar-default">
                 <!-- LINK TENTANG KAMI -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 px-4">
+                    <div class="flex items-center justify-between space-x-5 px-2">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
                             Tentang Kami
                         </a>
@@ -61,8 +61,8 @@
                 </div>
 
                 <!-- LINK MEDIA -->
-                <!-- <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
                             Media
                         </a>
@@ -74,11 +74,11 @@
                         <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
                         <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- LINK ETALASE -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Etalase
@@ -96,7 +96,7 @@
 
                 <!-- LINK PELUANG -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Peluang
@@ -118,7 +118,7 @@
 
                 <!-- LINK PROGRAM -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             Program
@@ -140,7 +140,7 @@
 
                 <!-- LINK INFORMASI -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
                             onClick="">
                             INFORMASI
@@ -487,7 +487,7 @@
         <h3 class="text-okoce-blue text-center font-poppins text-2xl lg:text-4xl font-bold-700">7 Tahapan OK OCE Prima</h3>
     </div>
     <div id="7-top" class="bg-white w-full lg:py-20 flex justify-center">
-        <div class="w-full flex flex-col lg:flex-row items-center justify-evenly">
+        <div class="w-full flex flex-col xl:flex-row items-center justify-evenly">
             <img src="./dist/img/7top-rb.webp" alt="">
 
             <div class="py-5">
@@ -596,7 +596,7 @@
                                 <h2 id="currentMonthYear" class="text-sm lg:text-xl font-semibold text-center"></h2>
                                 <button id="nextMonth" class="text-gray-500 hover:text-gray-700"><i class="fa-solid fa-arrow-right"></i></button>
                             </div>
-                            <table class="w-11/12 mx-auto">
+                            <table class="w-11/12 mx-auto md:mt-5">
                                 <thead>
                                     <tr class="text-xs lg:text-lg">
                                         <th class="py-5">M</th>
@@ -621,15 +621,15 @@
                         <div class="flex flex-col lg:flex-row">
 
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-1.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-1.webp" alt="">
                             </div>
                             
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-2.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-2.webp" alt="">
                             </div>
 
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-3.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-3.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -638,15 +638,15 @@
                         <div class="flex flex-col lg:flex-row">
 
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-2.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-2.webp" alt="">
                             </div>
 
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-3.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-3.webp" alt="">
                             </div>
 
                             <div class="rounded-lg font-jost">
-                                <img class="w-full pr-2 py-1 rounded-2xl" src="./dist/img/news-1.webp" alt="">
+                                <img class="w-full pr-2 py-1 rounded-2xl shadow-lg" src="./dist/img/news-1.webp" alt="">
                             </div>
 
                         </div>
@@ -663,19 +663,19 @@
             <h1 class="text-okoce-blue text-3xl font-jost font-bold text-center">Berita OK OCE Indonesia</h1>
             
             <div class="w-full flex flex-col md:flex-row py-8 mx-auto text-slate-700">
-                <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+                <div class="container rounded-lg border border-solid border-gray-200 mt-5 md:mt-0 shadow-xl mx-2 h-fit font-jost">
                     <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                     <h4 class="p-6 font-semibold">Kisah Pelaku Usaha Fashion Dampingan OK OCE Ina Makmur di Jawa Timur!</h4>
                     <p class="px-6 pb-6"><b>Ponorogo -</b> Pelaku Usaha Jawa Timur, khususnya di Ponorogo menerima kunjungan dari Mahasiswa University of Southern California (USC) Amerika untuk melihat perkembangan UMKM di Indonesia, khususnya Jawa Timur.</p>
                     <p class="px-6 pb-6 text-okoce-blue"><a href="">Baca Selengkapnya >></a></p>
                 </div>
-                <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+                <div class="container rounded-lg border border-solid border-gray-200 mt-5 md:mt-0 shadow-xl mx-2 h-fit font-jost">
                     <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                     <h4 class="p-6 font-semibold">Disambut Bupati Ponorogo, Mahasiswa Amerika Antusias Dengan Budaya Indonesia!</h4>
                     <p class="px-6 pb-6"><b>Ponorogo -</b> Gerakan sosial OK OCE Indonesia bersama dengan Pelajar USC USA disambut oleh Bupati Ponorogo, Sugiri Sancoko di Ponorogo, Selasa, 13 Maret 2023.</p>
                     <p class="px-6 pb-6 text-okoce-blue"><a href="">Baca Selengkapnya >></a></p>
                 </div>
-                <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+                <div class="container rounded-lg border border-solid border-gray-200 mt-5 md:mt-0 shadow-xl mx-2 h-fit font-jost">
                     <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                     <h4 class="p-6 font-semibold">Penggerak OK OCE Super Jaya Sakti Luncurkan Superpetani.com, Ciptakan Peluang Usaha Petani Indonesia!</h4>
                     <p class="px-6 pb-6"><b>Ponorogo -</b> Ditengah banyaknya keluhan para petani mulai dari sulitnya mendapat pupuk, sulitnya sistem pengairan hingga sulitnya pemasaran hasil tani, menjadikan berbagai pihak harus memutar otak mengatasi hal tersebut.</p>
@@ -683,6 +683,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="flex flex-col md:flex-row py-5 mx-auto bg-white">
+        <button id="beritaButton" class="bg-okoce-red hover:bg-okoce-blue mx-auto my-1 font-jost rounded-half uppercase menu-hover py-2 px-4 text-sm lg:py-3 lg:px-10 lg:text-base font-medium text-white">
+            Cek Berita Lainnya
+        </button>
     </div>
     <!-- END BERITA SECTION -->
 
@@ -811,6 +816,13 @@
         slider.style.transform = "translateX(" + defaultTransform + "px)";
     }
     prev.addEventListener("click", goPrev);
+</script>
+<script>
+    const toBerita = document.getElementById('beritaButton');
 
+    toBerita.addEventListener('click', () => {
+        window.location.href = "/media.html";
+        window.location.href = "/media.html#berita";
+    });
 </script>
 </html>

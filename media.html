@@ -21,15 +21,15 @@
 <body class="dark:bg-white dark:text-slate-700">
     <!-- START NAVBAR -->
     <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
-    <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-10">
+    <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
-            <div class="px-2 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo">
-                <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
+            <div class="px-2 ml-2 md:ml-0 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+                <img src=" ./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
             </div>
 
             <!-- toggle menu hamburger -->
             <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-700 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
+                class="inline-flex items-center p-2 w-10 h-10 mr-2 justify-center text-sm text-slate-700 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -39,12 +39,12 @@
                 </svg>
             </button>
 
-            <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+            <div class="hidden w-full lg:flex lg:w-auto" id="navbar-default">
                 <!-- LINK TENTANG KAMI -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 px-4">
+                    <div class="flex items-center justify-between space-x-5 px-2">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
-                           Tentang Kami
+                            Tentang Kami
                         </a>
                     </div>
                     <!-- ANAK LINK TENTANG KAMI -->
@@ -53,17 +53,18 @@
                         <a href="sejarah.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
                         <a href="visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Nilai Inti</a>
-                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur Pengurus</a>
+                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
+                            Pengurus</a>
                         <a href="7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
                     </div>
                 </div>
 
                 <!-- LINK MEDIA -->
-                <!-- <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
                         <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
-                           Media
+                            Media
                         </a>
                     </div>
                     
@@ -73,19 +74,21 @@
                         <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
                         <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- LINK ETALASE -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
-                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
-                           Etalase
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Etalase
                         </a>
                     </div>
                     <!-- ANAK LINK ETALASE -->
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
                         onClick="">
-                        <a href="merchandise.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
+                        <a href="merchandise.html"
+                            class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">E-meterai</a>
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Pasar OK OCE</a>
                     </div>
@@ -93,9 +96,10 @@
 
                 <!-- LINK PELUANG -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
-                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
-                           Peluang
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Peluang
                         </a>
                     </div>
                     <!-- ANAK LINK PELUANG -->
@@ -111,43 +115,46 @@
                         <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Donasi</a>
                     </div>
                 </div>
-                
+
                 <!-- LINK PROGRAM -->
                 <div class="group relative cursor-pointer py-2">
-                    <div class="flex items-center justify-between space-x-5 bg-white px-4">
-                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
                             Program
                         </a>
                     </div>
                     <!-- ANAK LINK PROGRAM -->
                     <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
-                    onClick="">
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Brand Lokal OK</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Modal Berkah</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Emak Kece</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
-                    <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
-                    <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Brand Lokal OK</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Modal Berkah</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Emak Kece</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
+                        <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- LINK INFORMASI -->
-            <div class="group relative cursor-pointer py-2">
-                <div class="flex items-center justify-between space-x-5 bg-white px-4">
-                    <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
-                       INFORMASI
-                    </a>
+
+                <!-- LINK INFORMASI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            INFORMASI
+                        </a>
+                    </div>
+                    <!-- ANAK LINK INFORMASI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
+                        <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
+                            Daftar</a>
+                        <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
+                    </div>
                 </div>
-                <!-- ANAK LINK INFORMASI -->
-                <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
-                    onClick="">
-                    <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
-                    <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara Daftar</a>
-                    <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
-                </div>
-            </div>
 
                 <!-- LINK MASUK -->
                 <div class="py-2">
@@ -169,6 +176,7 @@
         </div>
     </nav>
     <!-- END NAVBAR -->
+
 
     <!-- START CALENDAR SECTION -->
     <h1 id="event" class="font-jost text-2xl lg:text-4xl font-bold-700 text-center pt-36">Event <span class="text-okoce-blue">OK OCE Indonesia</span></h1>
@@ -216,19 +224,19 @@
     <!-- EVENT LIST SECTION -->
     <div class="">
         <div class="w-10/12 flex flex-col md:flex-row pt-8 mx-auto">
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                 <h4 class="p-6 font-semibold">Mengembangkan Potensi Produk Lokal Tas Tenun Ikat bersama ADIA</h4>
                 <p class="px-6 pb-6"><b>Ponorogo | </b> Selasa, 10 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                 <h4 class="p-6 font-semibold">Mengelola Kecemasan Dengan Teknik Mindfullnes Spiritual</h4>
                 <p class="px-6 pb-6"><b>Online |</b> Jum'at, 13 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                 <h4 class="p-6 font-semibold">OK OCE GAN 1st Anniversary Talk Show dan Susur Sungai</h4>
                 <p class="px-6 pb-6"><b>Jakarta |</b> Minggu, 15 Oktober 2023</p>
@@ -236,19 +244,19 @@
             </div>
         </div>
         <div class="w-10/12 flex flex-col md:flex-row pt-8 mx-auto">
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                 <h4 class="p-6 font-semibold">Bazar Sembako Murah Kota Semarang</h4>
                 <p class="px-6 pb-6"><b>Semarang | </b> Selasa, 17 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                 <h4 class="p-6 font-semibold">DNA Test : Get To Know Your Powerful Business Plan</h4>
                 <p class="px-6 pb-6"><b>Online |</b> Jum'at, 20 Oktober 2023</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Lihat Detail Acara >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                 <h4 class="p-6 font-semibold">Peluang Usaha Ekspedisi Bersama OK OCE Xpress</h4>
                 <p class="px-6 pb-6"><b>Jakarta |</b> Minggu, 22 Oktober 2023</p>
@@ -296,19 +304,19 @@
     <div id="berita">
         <h1 class="font-jost text-2xl lg:text-4xl font-bold-700 text-center mt-16">Berita <span class="text-okoce-blue">Terbaru</span></h1>
         <div class="w-10/12 flex flex-col md:flex-row py-8 mx-auto">
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-1.webp" alt="">
                 <h4 class="p-6 font-semibold">Kisah Pelaku Usaha Fashion Dampingan OK OCE Ina Makmur di Jawa Timur!</h4>
                 <p class="px-6 pb-6"><b>Ponorogo -</b> Pelaku Usaha Jawa Timur, khususnya di Ponorogo menerima kunjungan dari Mahasiswa University of Southern California (USC) Amerika untuk melihat perkembangan UMKM di Indonesia, khususnya Jawa Timur.</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Baca Selengkapnya >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-2.webp" alt="">
                 <h4 class="p-6 font-semibold">Disambut Bupati Ponorogo, Mahasiswa Amerika Antusias Dengan Budaya Indonesia!</h4>
                 <p class="px-6 pb-6"><b>Ponorogo -</b> Gerakan sosial OK OCE Indonesia bersama dengan Pelajar USC USA disambut oleh Bupati Ponorogo, Sugiri Sancoko di Ponorogo, Selasa, 13 Maret 2023.</p>
                 <p class="px-6 pb-6 text-okoce-blue"><a href="">Baca Selengkapnya >></a></p>
             </div>
-            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl lg:mx-2 h-fit font-jost">
+            <div class="container rounded-lg border border-solid border-gray-200 shadow-xl md:mx-2 h-fit font-jost">
                 <img class="lg:w-fit w-full mx-auto px-6 pt-6 rounded-t-[30px]" src="./dist/img/news-3.webp" alt="">
                 <h4 class="p-6 font-semibold">Penggerak OK OCE Super Jaya Sakti Luncurkan Superpetani.com, Ciptakan Peluang Usaha Petani Indonesia!</h4>
                 <p class="px-6 pb-6"><b>Ponorogo -</b> Ditengah banyaknya keluhan para petani mulai dari sulitnya mendapat pupuk, sulitnya sistem pengairan hingga sulitnya pemasaran hasil tani, menjadikan berbagai pihak harus memutar otak mengatasi hal tersebut.</p>
@@ -333,108 +341,96 @@
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga.jpeg" alt="black chair and white table" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Januari 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Januari 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga-n-friends-2.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Februari 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Februari 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga-n-friends.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Maret 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Maret 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 April 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 April 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/yogyakarta.jpeg" alt="black chair and white table" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Mei 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Mei 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga-n-friends-2.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Juni 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Juni 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga-n-friends-2.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Juli 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Juli 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga-n-friends.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Agustus 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Agustus 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga.jpeg" alt="black chair and white table" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 September 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 September 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/yogyakarta.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Oktober 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Oktober 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/yogyakarta.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 November 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 November 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-shrink-0 relative w-full sm:w-1/4">
                             <img src="./dist/img/galeri/sandiaga.jpeg" alt="sitting area" class="object-cover object-center w-full" />
                             <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">12 Desember 2023</h2>
+                                <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white shadow-xl">12 Desember 2023</h2>
                                 <div class="flex h-full items-end pb-6">
-                                    <h3 class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">OK OCE Indonesia</h3>
                                 </div>
                             </div>
                         </div>

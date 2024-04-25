@@ -9728,6 +9728,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(62 183 221 / var(--tw-bg-opacity));
 }
 
+.bg-okoce-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 29 40 / var(--tw-bg-opacity));
+}
+
 .bg-purple-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
@@ -9750,11 +9755,6 @@ details.collapse summary::-webkit-details-marker {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-30 {
@@ -11191,6 +11191,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
@@ -11214,11 +11219,6 @@ details.collapse summary::-webkit-details-marker {
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
@@ -11530,12 +11530,20 @@ details.collapse summary::-webkit-details-marker {
     margin-right: auto;
   }
 
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:mr-10 {
     margin-right: 2.5rem;
   }
 
-  .md\:flex {
-    display: flex;
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .md\:grid {
@@ -11544,10 +11552,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:contents {
     display: contents;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-96 {
@@ -11568,10 +11572,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:w-7\/12 {
     width: 58.333333%;
-  }
-
-  .md\:w-auto {
-    width: auto;
   }
 
   .md\:w-full {
@@ -11762,6 +11762,10 @@ details.collapse summary::-webkit-details-marker {
     width: 300px;
   }
 
+  .lg\:w-auto {
+    width: auto;
+  }
+
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -11940,6 +11944,10 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
   .xl\:gap-0 {
     gap: 0px;
   }
@@ -11947,6 +11955,11 @@ details.collapse summary::-webkit-details-marker {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .xl\:text-5xl {
