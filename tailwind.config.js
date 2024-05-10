@@ -29,6 +29,7 @@ module.exports = {
         "bg3" : "url('./img/bg3.jpg')",
         "bg4" : "url('./img/banner-home.jpg')",
         "bg5" : "url('./img/galeri/sandiaga.jpeg')",
+        "bg6" : "url('./img/galeri/yogyakarta.jpeg')",
         "pelatihan-ukm": "url('../7top-detail-pages/img/pelatihan-kolaborasi-ukm-strategi.jpg')",
         "pelatihan-master-mentor": "url('../7top-detail-pages/img/master-mentor-2.webp')",
         "pelatihan-optimasi-bisnis": "url('../7top-detail-pages/img/optimasi-bisnis.webp')",

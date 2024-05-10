@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berbagi Kebahagiaan Untuk Yatim Bersama OK OCE Kemanusiaan dan OK OCE Indonesia - OK OCE Indonesia</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./dist/img/logo-okoce.webp" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <!-- <div class="navbar-back mb-[5.5rem]"></div> -->
+    <nav class="bg-white font-jost fixed top-0 left-0 right-0 border-gray-200 shadow-md z-40">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
+            <div class="px-2 ml-2 md:ml-0 flex flex-col justify-between hover:shadow-xl hover:rounded-lg" id="logo"">
+                <img src=" ./dist/img/logo-okoce.webp" alt="" class="w-[100px]">
+            </div>
+
+            <!-- toggle menu hamburger -->
+            <button id="toggleButton" data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 mr-2 justify-center text-sm text-slate-700 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full lg:flex lg:w-auto" id="navbar-default">
+                <!-- LINK TENTANG KAMI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 px-2">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                            Tentang Kami
+                        </a>
+                    </div>
+                    <!-- ANAK LINK TENTANG KAMI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="sejarah.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Sejarah</a>
+                        <a href="visi-misi.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Visi Misi</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Nilai Inti</a>
+                        <a href="struktur-pengurus.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Struktur
+                            Pengurus</a>
+                        <a href="7-top.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">7TOP</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Logo</a>
+                    </div>
+                </div>
+
+                <!-- LINK MEDIA -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 text-sm font-medium text-slate-700 lg:mx-4" onClick="">
+                            Media
+                        </a>
+                    </div>
+                    
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/media.html#berita" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Berita</a>
+                        <a href="/media.html#event" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Event</a>
+                        <a href="/media.html#galeri" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Galeri</a>
+                    </div>
+                </div>
+
+                <!-- LINK ETALASE -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Etalase
+                        </a>
+                    </div>
+                    <!-- ANAK LINK ETALASE -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="merchandise.html"
+                            class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Merchandise</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">E-meterai</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Pasar OK OCE</a>
+                    </div>
+                </div>
+
+                <!-- LINK PELUANG -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Peluang
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PELUANG -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Usaha</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Peluang Kerja</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Magang</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Penggerak</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Trainer</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Mitra Kerjasama</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Donasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK PROGRAM -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            Program
+                        </a>
+                    </div>
+                    <!-- ANAK LINK PROGRAM -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Brand Lokal OK</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Modal Berkah</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Emak Kece</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Masjid Pemberdaya</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Desapreneur</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">The Mentor</a>
+                        <a href="/master-mentor.html" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Master Mentor</a>
+                        <a href="#" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Digitalisasi</a>
+                    </div>
+                </div>
+
+                <!-- LINK INFORMASI -->
+                <div class="group relative cursor-pointer py-2">
+                    <div class="flex items-center justify-between space-x-5 bg-white xl:px-5">
+                        <a class="uppercase menu-hover my-2 py-2 pr-5 text-sm font-medium text-slate-700 lg:mx-4"
+                            onClick="">
+                            INFORMASI
+                        </a>
+                    </div>
+                    <!-- ANAK LINK INFORMASI -->
+                    <div class="invisible bg-white absolute z-50 flex w-full flex-col py-1 px-4 text-slate-700 shadow-xl group-hover:visible"
+                        onClick="">
+                        <a href="/info.html#faq" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">FAQ</a>
+                        <a href="/info.html#cara-daftar" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Cara
+                            Daftar</a>
+                        <a href="/info.html#kontak" class="my-2 text-sm block py-1 text-slate-500 md:mx-2">Kontak</a>
+                    </div>
+                </div>
+
+                <!-- LINK MASUK -->
+                <div class="py-2">
+                    <div class="flex flex-col md:flex-row items-center justify-center md:space-x-5 bg-white px-4">
+                        <a href="https://www.ecsys.okoce.net" target="blank"
+                            class="bg-okoce-blue rounded-half uppercase menu-hover my-2 py-2 px-5 text-sm font-medium text-white"
+                            onClick="">
+                            MASUK
+                        </a>
+
+                        <a href="https://ecsys.okoce.net/register" target="blank"
+                            class="bg-okoce-blue rounded-half uppercase menu-hover my-2 py-2 px-5 text-sm font-medium text-white"
+                            onClick="">
+                            DAFTAR
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+
+    <section class="bg-gradient-to-r from-okoce-red to-okoce-blue pt-24 shadow-xl bg-fixed bg-cover bg-center">
+        <div class="py-16 px-4 mx-auto max-w-screen-xl lg:px-6 ">
+            <div class="flex justify-center mx-auto w-11/12 text-center">
+                <h1 class="font-jost font-bold text-2xl text-white leading-relaxed md:hidden">Berbagi Kebahagiaan Untuk Yatim Bersama OK OCE Kemanusiaan dan OK OCE Indonesia</h1>
+                <h1 class="font-jost font-bold text-4xl text-white leading-relaxed hidden md:block">Berbagi Kebahagiaan Untuk Yatim Bersama OK OCE Kemanusiaan dan OK OCE Indonesia</h1>
+            </div>
+            <div class="w-11/12 md:w-3/5 mx-auto text-center pt-5 text-white font-jost">
+                <p> April 2, 2024 | oleh Kevin AA
+                </p><br>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-white pt-10">
+        <img class="w-10/12 md:w-3/5 rounded-lg mx-auto" src="./dist/img/berita-1.png">
+    </div>
+
+    <div class="w-full bg-white" id="text-en">                    
+        <div class="w-11/12 md:w-3/5 mx-auto text-left py-10 text-slate-800 font-jost">
+            <p><b>Jakarta — </b>Dalam semangat kebersamaan dan kasih sayang di bulan suci Ramadhan, OK OCE Indonesia dan OK OCE Kemanusiaan dengan kerendahan hati dan penuh kecintaan telah menyelenggarakan sebuah Santunan untuk Anak Yatim dan Dhuafa.
+            </p><br>
+            <p>Santunan tersebut menjadi bagian dalam acara Buka Puasa OK OCE bersama Sandiaga Uno di Amaris Pancoran pada hari Selasa (26/2). Santunan ini merupakan salah satu Program unggulan OK OCE Kemanusiaan yang kini mengangkat tema “Kebahagiaan untuk Yatim di Bulan Suci Ramadhan” sebagai wujud dari semangat berbagi dan kepedulian terhadap sesama.
+            </p><br>
+            <p>Sandiaga Uno selaku Founder OK OCE turut hadir dan memberikan Santunan kepada Anak Yatim dan Dhuafa. “Kegiatan Santunan Anak Yatim dan Dhuafa ini tepat dilakukan di bulan Ramadhan, semoga keberkahan bisa menyertai kita semua,” ucapnya.
+            </p><br>
+            <p>Santunan ini sebagai bentuk kesadaran OK OCE Indonesia dan OK OCE Kemanusiaan tentang pentingnya kebersamaan, kasih sayang, dan kepedulian terhadap orang-orang di sekitar.
+            </p><br>
+            <p>“Kegiatan Santunan seperti ini perlu terus dilakukan agar OK OCE terus memberikan kebermanfaatan bagi orang-orang yang membutuhkan, mulai dari anak yatim hingga fakir miskin,” tutup Sandiaga.
+            </p>
+        </div>
+    </div>
+
+    <div class="w-full bg-white" id="text-id">                    
+        <div class="w-11/12 md:w-3/5 mx-auto text-left pb-10 font-jost leading-relaxed">
+            <div class="pt-5">
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Ramadhan</span>
+                </button>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Founder OK OCE</span>
+                </button>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Gerakan Sosial</span>
+                </button>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">OK OCE Kemanusiaan</span>
+                </button>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Sandiaga Uno</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- START FOOTER SECTION -->
+    <footer class="bg-white flex flex-col items-center text-center font-jost shadow-inner pt-8 text-slate-700">
+        <div class="flex flex-col md:flex-row mt-8 mb-0">
+            <img src="./dist/img/logo-okoce.webp" alt="" class="w-[100px] mx-2">
+            <img src="./dist/img/gerakan-sosial.webp" alt="" class="w-[100px] mx-2">
+        </div>
+        <div class="container pt-8 font-bold text-base px-2">
+            Perkumpulan Gerakan OK OCE Indonesia
+        </div>
+        <div class="container pt-4 text-xs px-3">
+            Jl. Tebet Barat Dalam VII No.3, RT.9/RW.6, Tebet Barat, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota
+            Jakarta 12810
+        </div>
+        <div class="container pt-9 w-2/5 text-2xl flex-col">
+            <div class="mb-9 flex justify-evenly">
+                <a href="https://www.facebook.com/profile.php?id=100064564037361"
+                    class="fa-brands fa-facebook mx-1.5"></a>
+                <a href="https://twitter.com/okoceindonesia" class="fa-brands fa-x-twitter mx-1.5"></a>
+                <a href="https://instagram.com/okoce.indonesia" class="fa-brands fa-instagram mx-1.5"></a>
+                <a href="https://www.youtube.com/channel/UCrXYetY5iBgnFnNKCVYzihw"
+                    class="fa-brands fa-youtube mx-1.5"></a>
+                <a href="mailto:admin@okoce.net" class=" fa fa-solid fa-envelope mx-1.5"></a>
+            </div>
+        </div>
+
+        <div class="w-full p-4 text-xs bg-okoce-blue dark:text-neutral-200">
+            Hak cipta © 2023 OK OCE Indonesia. Seluruh hak cipta dilindungi undang-undang.
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+</html>

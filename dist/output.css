@@ -9703,6 +9703,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -9781,6 +9786,10 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-bg5 {
   background-image: url('./img/galeri/sandiaga.jpeg');
+}
+
+.bg-bg6 {
+  background-image: url('./img/galeri/yogyakarta.jpeg');
 }
 
 .bg-fintech {
@@ -9952,6 +9961,10 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-origin-content {
   background-origin: content-box;
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .object-contain {
@@ -10451,6 +10464,10 @@ details.collapse summary::-webkit-details-marker {
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .leading-tight {
@@ -11259,6 +11276,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-indigo-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
@@ -11602,12 +11624,20 @@ details.collapse summary::-webkit-details-marker {
     margin-top: 1.25rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:grid {
     display: grid;
   }
 
   .md\:contents {
     display: contents;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-96 {
