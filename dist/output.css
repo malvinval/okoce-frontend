@@ -8522,6 +8522,14 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -10240,6 +10248,10 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 2.25rem;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -11102,7 +11114,7 @@ details.collapse summary::-webkit-details-marker {
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
   }
 }
 
@@ -11117,12 +11129,12 @@ details.collapse summary::-webkit-details-marker {
     }
 
     100% {
-      transform: translateX(-575%);
+      transform: translateX(-1000%);
     }
   }
 
   .move-left-right {
-    animation: moveLeftRight 20s linear infinite;
+    animation: moveLeftRight 30s linear infinite;
   }
 }
 
@@ -11133,7 +11145,7 @@ details.collapse summary::-webkit-details-marker {
     }
 
     100% {
-      transform: translateX(-270%);
+      transform: translateX(-450%);
     }
   }
 
