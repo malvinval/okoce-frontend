@@ -11102,7 +11102,7 @@ details.collapse summary::-webkit-details-marker {
   }
 
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
   }
 }
 
@@ -11117,12 +11117,12 @@ details.collapse summary::-webkit-details-marker {
     }
 
     100% {
-      transform: translateX(-1000%);
+      transform: translateX(-575%);
     }
   }
 
   .move-left-right {
-    animation: moveLeftRight 30s linear infinite;
+    animation: moveLeftRight 20s linear infinite;
   }
 }
 
@@ -11133,7 +11133,7 @@ details.collapse summary::-webkit-details-marker {
     }
 
     100% {
-      transform: translateX(-450%);
+      transform: translateX(-270%);
     }
   }
 
@@ -11531,6 +11531,10 @@ details.collapse summary::-webkit-details-marker {
     margin-top: 0px;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -11549,6 +11553,10 @@ details.collapse summary::-webkit-details-marker {
 
   .sm\:w-1\/4 {
     width: 25%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:flex-row {
@@ -11794,6 +11802,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
