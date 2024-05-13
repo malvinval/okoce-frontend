@@ -10457,10 +10457,6 @@ details.collapse summary::-webkit-details-marker {
   line-height: 1rem;
 }
 
-.leading-5 {
-  line-height: 1.25rem;
-}
-
 .leading-9 {
   line-height: 2.25rem;
 }
@@ -11534,6 +11530,10 @@ details.collapse summary::-webkit-details-marker {
     margin-top: 0px;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -11740,6 +11740,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pt-5 {
+    padding-top: 1.25rem;
   }
 
   .md\:pt-8 {
