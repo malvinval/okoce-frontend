@@ -11530,10 +11530,6 @@ details.collapse summary::-webkit-details-marker {
     margin-top: 0px;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -11805,10 +11801,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:mt-0 {
     margin-top: 0px;
-  }
-
-  .lg\:block {
-    display: block;
   }
 
   .lg\:flex {
