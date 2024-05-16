@@ -8521,6 +8521,10 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
+.w-3\/5 {
+  width: 60%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -11878,6 +11882,10 @@ details.collapse summary::-webkit-details-marker {
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:w-2\/5 {
+    width: 40%;
   }
 
   .lg\:grid-cols-12 {
