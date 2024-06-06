@@ -9909,12 +9909,12 @@ details.collapse summary::-webkit-details-marker {
   background-size: cover;
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -10141,6 +10141,16 @@ details.collapse summary::-webkit-details-marker {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
 }
 
 .pb-10 {
@@ -11670,6 +11680,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mr-6 {
+    margin-right: 1.5rem;
   }
 
   .md\:block {
