@@ -188,6 +188,10 @@
     <div class="w-full bg-white" id="text-id">                    
         <div class="w-11/12 md:w-3/5 mx-auto text-left font-jost leading-relaxed">
             <div class="py-8 text-center">
+                <button id="all" class="bg-okoce-blue text-white py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Semua</span>
+                </button>
                 <button id="umkm-button" class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
                     <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
                     <span class="text-sm">UMKM</span>
@@ -351,6 +355,7 @@
     const berita_okoce = document.querySelectorAll('.berita-okoce');
     const pengurus_okoce = document.querySelectorAll('.pengurus-okoce');
 
+    const button_all = document.getElementById('all');
     const button_umkm = document.getElementById('umkm-button');
     const button_okoce = document.getElementById('okocenews-button');
     const button_pengurus = document.getElementById('pengurus-button');   
@@ -365,6 +370,17 @@
         pengurus_okoce.forEach(pengurus_okoce => {
             pengurus_okoce.style.display = 'none';
         });
+        button_all.style.backgroundColor = 'rgb(209 213 219)';
+        button_all.style.color = 'rgb(31 41 55)';
+
+        button_umkm.style.backgroundColor = 'rgb(0 124 189)';
+        button_umkm.style.color = 'white';
+
+        button_okoce.style.backgroundColor = 'rgb(209 213 219)';
+        button_okoce.style.color = 'rgb(31 41 55)';
+
+        button_pengurus.style.backgroundColor = 'rgb(209 213 219)';
+        button_pengurus.style.color = 'rgb(31 41 55)';
     });
 
     button_okoce.addEventListener('click', () => {
@@ -377,6 +393,17 @@
         pengurus_okoce.forEach(pengurus_okoce => {
             pengurus_okoce.style.display = 'none';
         });
+        button_all.style.backgroundColor = 'rgb(209 213 219)';
+        button_all.style.color = 'rgb(31 41 55)';
+
+        button_okoce.style.backgroundColor = 'rgb(0 124 189)';
+        button_okoce.style.color = 'white';
+
+        button_umkm.style.backgroundColor = 'rgb(209 213 219)';
+        button_umkm.style.color = 'rgb(31 41 55)';
+
+        button_pengurus.style.backgroundColor = 'rgb(209 213 219)';
+        button_pengurus.style.color = 'rgb(31 41 55)';
     });
 
     button_pengurus.addEventListener('click', () => {
@@ -389,6 +416,40 @@
         pengurus_okoce.forEach(pengurus_okoce => {
             pengurus_okoce.style.display = 'block';
         });
+        button_all.style.backgroundColor = 'rgb(209 213 219)';
+        button_all.style.color = 'rgb(31 41 55)';
+
+        button_pengurus.style.backgroundColor = 'rgb(0 124 189)';
+        button_pengurus.style.color = 'white';
+
+        button_okoce.style.backgroundColor = 'rgb(209 213 219)';
+        button_okoce.style.color = 'rgb(31 41 55)';
+
+        button_umkm.style.backgroundColor = 'rgb(209 213 219)';
+        button_umkm.style.color = 'rgb(31 41 55)';
+    });
+
+    button_all.addEventListener('click', () => {
+        umkm.forEach(umkm => {
+            umkm.style.display = 'block';
+        });
+        berita_okoce.forEach(berita_okoce => {
+            berita_okoce.style.display = 'block';
+        });
+        pengurus_okoce.forEach(pengurus_okoce => {
+            pengurus_okoce.style.display = 'block';
+        });
+        button_all.style.backgroundColor = 'rgb(0 124 189)';
+        button_all.style.color = 'white';
+
+        button_pengurus.style.backgroundColor = 'rgb(209 213 219)';
+        button_pengurus.style.color = 'rgb(31 41 55)';
+
+        button_okoce.style.backgroundColor = 'rgb(209 213 219)';
+        button_okoce.style.color = 'rgb(31 41 55)';
+
+        button_umkm.style.backgroundColor = 'rgb(209 213 219)';
+        button_umkm.style.color = 'rgb(31 41 55)';
     });
 
 </script>
