@@ -185,11 +185,30 @@
     </section>
 
     <!-- LIST BERITA SECTION -->
-    <div class="bg-white font-jost mt-10">
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+    <div class="w-full bg-white" id="text-id">                    
+        <div class="w-11/12 md:w-3/5 mx-auto text-left font-jost leading-relaxed">
+            <div class="py-8 text-center">
+                <button id="umkm-button" class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">UMKM</span>
+                </button>
+                <button id="okocenews-button" class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Berita OK OCE</span>
+                </button>
+                <button id="pengurus-button" class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded inline-flex items-center my-1">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M235.8,18.4c-6.3-6.3-15-10.2-24.5-10.2h-18.8c-9.6,0-18.2,3.9-24.5,10.2c-6.3,6.3-10.2,15-10.2,24.5v21.6c-0.1,0.4-0.1,0.8-0.1,1.2v26.6c0,3.8,3.1,6.9,6.9,6.9s6.9-3.1,6.9-6.9V73.7c8.7,2.5,15.1,10.5,15.1,20.1c0,11.5-9.3,20.9-20.9,20.9c-11.4,0-20.7-9.2-20.9-20.5V40.7c0,0-10.5,0-22,0c-11.5,0-20.2,9.2-20.2,9.2L21.4,132l0,0c-7,6.6-11.4,16-11.4,26.4c0,12.6,5.9,20.7,16.2,30.2l50.2,49.8h0.1c6.4,5.8,15,9.4,24.3,9.4c11.4,0,20.9-5.6,28.2-13.5c18.7-17.6,69.5-66.5,79.4-77.5c9.9-11,8.7-25.2,8.7-25.2V41.1h-45.9c0.4-5.1,2.7-9.7,6.2-13.2c3.9-3.9,9.2-6.2,15-6.2h18.8c5.8,0,11.1,2.4,15,6.2s6.2,9.2,6.2,15v4.5v0.1v26.6c0,3.8,3,6.9,6.7,6.9c3.7,0,6.7-3.1,6.7-6.9v-3.7v-23V43C246,33.4,242.1,24.7,235.8,18.4z"/></svg>
+                    <span class="text-sm">Pengurus OK OCE</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white font-jost">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto umkm">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-1.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Kisah Pelaku Usaha Fashion Dampingan OK OCE Ina Makmur di Jawa Timur!</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">19 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> - Pelaku Usaha Jawa Timur, khususnya di Ponorogo menerima kunjungan dari Mahasiswa University of Southern California (USC) Amerika untuk melihat perkembangan UMKM di Indonesia, khususnya Jawa Timur.</p>
@@ -197,10 +216,10 @@
             </div>
             </div>
         </div>
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto berita-okoce">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-2.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Disambut Bupati Ponorogo, Mahasiswa Amerika Antusias Dengan Budaya Indonesia</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">11 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> -  Gerakan sosial OK OCE Indonesia bersama dengan Pelajar USC USA disambut oleh Bupati Ponorogo, Sugiri Sancoko di Ponorogo, Selasa, 13 Maret 2023.</p>
@@ -208,10 +227,10 @@
             </div>
             </div>
         </div>
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto pengurus-okoce">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-3.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Penggerak OK OCE Super Jaya Sakti Luncurkan Superpetani.com, Ciptakan Peluang Usaha Petani Indonesia!</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">11 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> - Ditengah banyaknya keluhan para petani mulai dari sulitnya mendapat pupuk, sulitnya sistem pengairan hingga sulitnya pemasaran hasil tani, menjadikan berbagai pihak harus memutar otak mengatasi hal tersebut.</p>
@@ -219,10 +238,10 @@
             </div>
             </div>
         </div>
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto umkm">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-1.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Kisah Pelaku Usaha Fashion Dampingan OK OCE Ina Makmur di Jawa Timur!</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">19 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> - Pelaku Usaha Jawa Timur, khususnya di Ponorogo menerima kunjungan dari Mahasiswa University of Southern California (USC) Amerika untuk melihat perkembangan UMKM di Indonesia, khususnya Jawa Timur.</p>
@@ -230,10 +249,10 @@
             </div>
             </div>
         </div>
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto berita-okoce">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-2.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Disambut Bupati Ponorogo, Mahasiswa Amerika Antusias Dengan Budaya Indonesia</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">11 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> -  Gerakan sosial OK OCE Indonesia bersama dengan Pelajar USC USA disambut oleh Bupati Ponorogo, Sugiri Sancoko di Ponorogo, Selasa, 13 Maret 2023.</p>
@@ -241,10 +260,10 @@
             </div>
             </div>
         </div>
-        <div class="w-11/12 md:w-10/12 py-5 mx-auto">
+        <div class="w-11/12 md:w-10/12 py-5 mx-auto pengurus-okoce">
             <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100">
             <img class="object-cover rounded-t-lg md:w-72 md:rounded-none md:rounded-s-lg" src="./dist/img/news-3.webp" alt="">
-            <div class="flex flex-col justify-between p-5 md:p-8 leading-normal">
+            <div class="flex flex-col justify-between px-5 py-3 leading-normal">
                 <h5 class="mb-3 text-lg md:text-2xl font-jost font-bold tracking-tight text-slate-700 "><a href="berita.html">Penggerak OK OCE Super Jaya Sakti Luncurkan Superpetani.com, Ciptakan Peluang Usaha Petani Indonesia!</a></h5>
                 <p class="mb-3 text-xs md:text-lg font-normal text-slate-600">11 Januari 2024</p>
                 <p class="mb-3 text-sm md:text-lg font-normal text-slate-700"><b>Ponorogo</b> - Ditengah banyaknya keluhan para petani mulai dari sulitnya mendapat pupuk, sulitnya sistem pengairan hingga sulitnya pemasaran hasil tani, menjadikan berbagai pihak harus memutar otak mengatasi hal tersebut.</p>
@@ -326,6 +345,52 @@
     logo.addEventListener('click', () => {
         window.location.href = '/';
     });
+</script>
+<script>
+    const umkm = document.querySelectorAll('.umkm');
+    const berita_okoce = document.querySelectorAll('.berita-okoce');
+    const pengurus_okoce = document.querySelectorAll('.pengurus-okoce');
+
+    const button_umkm = document.getElementById('umkm-button');
+    const button_okoce = document.getElementById('okocenews-button');
+    const button_pengurus = document.getElementById('pengurus-button');   
+
+    button_umkm.addEventListener('click', () => {
+        umkm.forEach(umkm => {
+            umkm.style.display = 'display';
+        });
+        berita_okoce.forEach(berita_okoce => {
+            berita_okoce.style.display = 'none';
+        });
+        pengurus_okoce.forEach(pengurus_okoce => {
+            pengurus_okoce.style.display = 'none';
+        });
+    });
+
+    button_okoce.addEventListener('click', () => {
+        umkm.forEach(umkm => {
+            umkm.style.display = 'none';
+        });
+        berita_okoce.forEach(berita_okoce => {
+            berita_okoce.style.display = 'display';
+        });
+        pengurus_okoce.forEach(pengurus_okoce => {
+            pengurus_okoce.style.display = 'none';
+        });
+    });
+
+    button_pengurus.addEventListener('click', () => {
+        umkm.forEach(umkm => {
+            umkm.style.display = 'none';
+        });
+        berita_okoce.forEach(berita_okoce => {
+            berita_okoce.style.display = 'none';
+        });
+        pengurus_okoce.forEach(pengurus_okoce => {
+            pengurus_okoce.style.display = 'display';
+        });
+    });
+
 </script>
 
 </html>
